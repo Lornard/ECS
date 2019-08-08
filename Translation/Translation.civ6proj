@@ -37,6 +37,9 @@
     <Content Include="Localisation\CSE_Localisation_XP2_PT_BR.sql">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Real Theologists.civ6sln">
+      <SubType>Content</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Localisation" />
