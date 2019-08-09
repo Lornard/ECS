@@ -22,7 +22,7 @@
     <AssemblyName>Translation</AssemblyName>
     <RootNamespace>Translation</RootNamespace>
     <InGameActionData><![CDATA[<InGameActions><UpdateText id="CSE_Translations"><Properties><LoadOrder>45</LoadOrder></Properties><File>Localisation/CSE_Localisation_PT_BR.sql</File></UpdateText><UpdateText id="CSE_Translations_XP1"><Properties><LoadOrder>45</LoadOrder></Properties><Criteria>XP1</Criteria><File>Localisation/CSE_Localisation_XP1_PT_BR.sql</File></UpdateText><UpdateText id="CSE_Translations_XP1"><Properties><LoadOrder>47</LoadOrder></Properties><Criteria>XP2</Criteria><File>Localisation/CSE_Localisation_XP2_PT_BR.sql</File></UpdateText></InGameActions>]]></InGameActionData>
-    <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="XP1"><GameCoreInUse>Expansion1,Expansion2</GameCoreInUse></Criteria><Criteria id="XP2"><GameCoreInUse>Expansion2</GameCoreInUse></Criteria></ActionCriteria>]]></ActionCriteriaData>
+    <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="XP1" any="1"><GameCoreInUse>Expansion1,Expansion2</GameCoreInUse></Criteria><Criteria id="XP2"><GameCoreInUse>Expansion2</GameCoreInUse></Criteria></ActionCriteria>]]></ActionCriteriaData>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
@@ -35,9 +35,6 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Localisation\CSE_Localisation_XP2_PT_BR.sql">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Real Theologists.civ6sln">
       <SubType>Content</SubType>
     </Content>
   </ItemGroup>

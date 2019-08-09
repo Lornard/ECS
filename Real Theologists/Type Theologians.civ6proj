@@ -21,18 +21,27 @@
 </Associations>]]></AssociationData>
     <AssemblyName>Real Theologists</AssemblyName>
     <RootNamespace>Real Theologists</RootNamespace>
-    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="UpdateTheologists"><Properties><LoadOrder>11</LoadOrder></Properties><File>Theologians.sql</File></UpdateDatabase><AddGameplayScripts id="RemoveTheologiansScripts"><Properties><LoadOrder>12</LoadOrder></Properties><File>JFD_GreatTheologians_Functions.lua</File></AddGameplayScripts></InGameActions>]]></InGameActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="UpdateTheologists"><Properties><LoadOrder>11</LoadOrder></Properties><File>Core/Theologians.sql</File></UpdateDatabase><AddGameplayScripts id="RemoveTheologiansScripts"><Properties><LoadOrder>12</LoadOrder></Properties><File>Lua/JFD_GreatTheologians_Functions.lua</File></AddGameplayScripts><ReplaceUIScript id="RemoveUIChanges"><Properties><LoadOrder>11</LoadOrder><LuaContext>GreatPeoplePopup</LuaContext><LuaReplace>Lua/UI/Replacements/JFD_GreatTheologians_GreatPeoplePopup.lua</LuaReplace></Properties></ReplaceUIScript></InGameActions>]]></InGameActionData>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="JFD_GreatTheologians_Functions.lua">
+    <Content Include="Core\Theologians.sql">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Theologians.sql">
+    <Content Include="Lua\JFD_GreatTheologians_Functions.lua">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Lua\UI\Replacements\JFD_GreatTheologians_GreatPeoplePopup.lua">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Lua" />
+    <Folder Include="Lua\UI" />
+    <Folder Include="Lua\UI\Replacements" />
+    <Folder Include="Core" />
   </ItemGroup>
   <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
 </Project>

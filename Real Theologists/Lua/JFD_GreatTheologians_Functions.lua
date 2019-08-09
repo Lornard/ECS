@@ -2,6 +2,7 @@
 -- Author: lorna
 -- DateCreated: 8/7/2019 10:59:13 PM
 --------------------------------------------------------------
+print('Theologians Functions Successfully Removed')
 
 function JFD_GreatTheologians_PlayerTurnStarted(playerID)
 end	
