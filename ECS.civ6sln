@@ -7,7 +7,7 @@ Project("{5DAE07AF-E217-45C1-8DE7-FF99D6011E8A}") = "Translation", "Translation\
 EndProject
 Project("{5DAE07AF-E217-45C1-8DE7-FF99D6011E8A}") = "Translation Mekkong", "Translation Mekkong\Translation Mekkong.civ6proj", "{C9387C3F-6EA7-4ADB-80AB-E72830D7A63C}"
 EndProject
-Project("{5DAE07AF-E217-45C1-8DE7-FF99D6011E8A}") = "Type Theologians", "Real Theologists\Type Theologians.civ6proj", "{4650EDE9-C776-42F8-9382-E703ECB9C03D}"
+Project("{5DAE07AF-E217-45C1-8DE7-FF99D6011E8A}") = "Theologians Points", "Real Theologists\Theologians Points.civ6proj", "{4650EDE9-C776-42F8-9382-E703ECB9C03D}"
 EndProject
 Project("{5DAE07AF-E217-45C1-8DE7-FF99D6011E8A}") = "CSE_Hasupuweteri", "CSE_Hasupuweteri\CSE_Hasupuweteri.civ6proj", "{CFDC9CCC-C834-46C9-8A0D-6271D7E721AE}"
 EndProject

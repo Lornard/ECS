@@ -28,7 +28,7 @@
     <OutputPath>.</OutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="EmptyMod1.Art.xml" />
+    <None Include="CSE_Hasupuweteri.xml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Core\City-States\XP1\CSE_Hasupuweteri.sql">

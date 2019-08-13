@@ -831,7 +831,7 @@ VALUES
 	("pt_BR",	"LOC_CIVILIZATION_CSE_MAI_ADJECTIVE",	"Ma'i"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_MAI_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_MAI_NAME}"		),
 	("pt_BR",	"LOC_CSE_MAI_TRAIT_NAME",				"{LOC_CIVILIZATION_CSE_MAI_NAME}"	),
-	("pt_BR",	"LOC_CSE_MAI_TRAIT_DESCRIPTION",		"Recebe os recursos de luxo [ICON_RESOURCE_CSE_BEESWAX] Cera de Abelha and [ICON_RESOURCE_CSE_BETEL_NUT] Noz de Areque (não negociáveis), que fornecem 6 [ICON_AMENITIES] Serviços cada."	),
+	("pt_BR",	"LOC_CSE_MAI_TRAIT_DESCRIPTION",		"Recebe os recursos de luxo [ICON_RESOURCE_CSE_BEESWAX] Cera de Abelha e [ICON_RESOURCE_CSE_BETEL_NUT] Noz de Areque (não negociáveis), que fornecem 6 [ICON_AMENITIES] Serviços cada."	),
 	
 	("pt_BR",	"LOC_LEADER_MINOR_CIV_CSE_MAI_NAME",	"{LOC_CIVILIZATION_CSE_MAI_NAME}"	),
 	("pt_BR",	"LOC_CITY_NAME_MAI",					"{LOC_CIVILIZATION_CSE_MAI_NAME}"	),

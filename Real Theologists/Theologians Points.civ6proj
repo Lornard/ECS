@@ -2,13 +2,13 @@
 <Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
-    <Name>Type Theologians</Name>
+    <Name>Theologians Points</Name>
     <Guid>b0d4a608-5af9-4c45-a4d9-a5e891cb518c</Guid>
     <ProjectGuid>4650ede9-c776-42f8-9382-e703ecb9c03d</ProjectGuid>
     <ModVersion>1</ModVersion>
-    <Teaser>This is a brief description of the mod.</Teaser>
-    <Description>This is a brief description of the mod.</Description>
-    <Authors>lorna</Authors>
+    <Teaser>Adds Theologian Points to JFD's Great Theologians</Teaser>
+    <Description>Disattach Great Theologians from Great Prophets points, creates its own points to be earned and move around some changes.</Description>
+    <Authors>lornard</Authors>
     <SpecialThanks>
     </SpecialThanks>
     <AffectsSavedGames>true</AffectsSavedGames>
@@ -21,13 +21,16 @@
 </Associations>]]></AssociationData>
     <AssemblyName>Real Theologists</AssemblyName>
     <RootNamespace>Real Theologists</RootNamespace>
-    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="UpdateTheologists"><Properties><LoadOrder>11</LoadOrder></Properties><File>Core/Theologians.sql</File></UpdateDatabase><AddGameplayScripts id="RemoveTheologiansScripts"><Properties><LoadOrder>12</LoadOrder></Properties><File>Lua/JFD_GreatTheologians_Functions.lua</File></AddGameplayScripts><ReplaceUIScript id="RemoveUIChanges"><Properties><LoadOrder>11</LoadOrder><LuaContext>GreatPeoplePopup</LuaContext><LuaReplace>Lua/UI/Replacements/JFD_GreatTheologians_GreatPeoplePopup.lua</LuaReplace></Properties></ReplaceUIScript></InGameActions>]]></InGameActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="UpdateTheologistsPoints"><Properties><LoadOrder>11</LoadOrder></Properties><File>Core/GreatTheologiansPoints.sql</File></UpdateDatabase><AddGameplayScripts id="RemoveTheologiansScripts"><Properties><LoadOrder>12</LoadOrder></Properties><File>Lua/JFD_GreatTheologians_Functions.lua</File></AddGameplayScripts><ReplaceUIScript id="RemoveUIChanges"><Properties><LoadOrder>11</LoadOrder><LuaContext>GreatPeoplePopup</LuaContext><LuaReplace>Lua/UI/Replacements/JFD_GreatTheologians_GreatPeoplePopup.lua</LuaReplace></Properties></ReplaceUIScript><UpdateDatabase id="UpdateTheologiansChanges"><Properties><LoadOrder>12</LoadOrder></Properties><File>Core/Great Theologian_Changes.sql</File></UpdateDatabase></InGameActions>]]></InGameActionData>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="Core\Theologians.sql">
+    <Content Include="Core\Great Theologian_Changes.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\GreatTheologiansPoints.sql">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Lua\JFD_GreatTheologians_Functions.lua">
