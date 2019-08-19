@@ -141,7 +141,7 @@ VALUES
 -----------------------------------------------
 	
 	("pt_BR",	"LOC_CIVILIZATION_CSE_ALAMUT_NAME",			"Alamut"		),
-	("pt_BR",	"LOC_CIVILIZATION_CSE_ALAMUT_ADJECTIVE",	"Alamut"		),
+	("pt_BR",	"LOC_CIVILIZATION_CSE_ALAMUT_ADJECTIVE",	"de Alamut"		),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_ALAMUT_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_ALAMUT_NAME}"		),
 	("pt_BR",	"LOC_CSE_ALAMUT_TRAIT_NAME",				"{LOC_CIVILIZATION_CSE_ALAMUT_NAME}"	),
 	("pt_BR",	"LOC_CSE_ALAMUT_TRAIT_DESCRIPTION",			"Espiões podem escolher qualquer promoção."	),
@@ -157,7 +157,7 @@ VALUES
 -----------------------------------------------
 	
 	("pt_BR",	"LOC_CIVILIZATION_CSE_AMPI_NAME",			"Ampi"		),
-	("pt_BR",	"LOC_CIVILIZATION_CSE_AMPI_ADJECTIVE",		"Ampian"	),
+	("pt_BR",	"LOC_CIVILIZATION_CSE_AMPI_ADJECTIVE",		"Ampiana"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_AMPI_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_AMPI_NAME}"		),
 	("pt_BR",	"LOC_CSE_AMPI_TRAIT_NAME",					"Bônus de Suzerano de {LOC_CIVILIZATION_CSE_AMPI_NAME}"	),
 	("pt_BR",	"LOC_CSE_AMPI_TRAIT_DESCRIPTION",			"Receba o recurso de luxo [ICON_RESOURCE_CSE_GLASS] Vidro (não negociável), que fornece 6 [ICON_AMENITIES] Serviços. Plantações provém +1 de [ICON_PRODUCTION] Produção."	),
@@ -178,8 +178,8 @@ VALUES
 -- City-State | Anuradhapura
 -----------------------------------------------
 	
-	("pt_BR",	"LOC_CIVILIZATION_CSE_ANURADHAPURA_NAME",			"Anuradhapura"	),
-	("pt_BR",	"LOC_CIVILIZATION_CSE_ANURADHAPURA_ADJECTIVE",		"Anuradhian"	),
+	("pt_BR",	"LOC_CIVILIZATION_CSE_ANURADHAPURA_NAME",			"Anuradapura"	),
+	("pt_BR",	"LOC_CIVILIZATION_CSE_ANURADHAPURA_ADJECTIVE",		"Anuradiana"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_ANURADHAPURA_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_ANURADHAPURA_NAME}"		),
 	("pt_BR",	"LOC_CSE_ANURADHAPURA_TRAIT_NAME",					"Bônus de Suzerano de {LOC_CIVILIZATION_CSE_ANURADHAPURA_NAME}"	),
 	("pt_BR",	"LOC_CSE_ANURADHAPURA_TRAIT_DESCRIPTION",			"Seus construtores podem construir a melhoria Dágaba.[NEWLINE][NEWLINE] Dágabas fornecem +1 de [ICON_SCIENCE] Ciência e +1 de [ICON_FAITH] Fé, com +1 de [ICON_SCIENCE] Ciência adicional para cada Campus adjacente, e +1 de [ICON_FAITH] Fé para cada Lugar Sagrado ajacente. [ICON_SCIENCE] Ciência e [ICON_FAITH] Fé adicionais conforme avança nas árvores tecnológicas e cívica."	),
@@ -230,7 +230,7 @@ VALUES
 -----------------------------------------------
 	
 	("pt_BR",	"LOC_CIVILIZATION_CSE_AZCAPOTZALCO_NAME",			"Azcapotzalco"	),
-	("pt_BR",	"LOC_CIVILIZATION_CSE_AZCAPOTZALCO_ADJECTIVE",		"Azcapotzalco"	),
+	("pt_BR",	"LOC_CIVILIZATION_CSE_AZCAPOTZALCO_ADJECTIVE",		"de Azcapotzalco"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_AZCAPOTZALCO_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_AZCAPOTZALCO_NAME}"		),
 	("pt_BR",	"LOC_CSE_AZCAPOTZALCO_TRAIT_NAME",					"Bônus de Suzerano de {LOC_CIVILIZATION_CSE_AZCAPOTZALCO_NAME}"	),
 	("pt_BR",	"LOC_CSE_AZCAPOTZALCO_TRAIT_DESCRIPTION",			"Sua civilização acumula pontos de aliança 25% mais rápido."	),
@@ -250,7 +250,7 @@ VALUES
 -----------------------------------------------
 	
 	("pt_BR",	"LOC_CIVILIZATION_CSE_BAIAE_NAME",			"Baiae"		),
-	("pt_BR",	"LOC_CIVILIZATION_CSE_BAIAE_ADJECTIVE",		"Baiae"		),
+	("pt_BR",	"LOC_CIVILIZATION_CSE_BAIAE_ADJECTIVE",		"de Baiae"		),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_BAIAE_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_BAIAE_NAME}"		),
 	("pt_BR",	"LOC_CSE_BAIAE_TRAIT_NAME",					"Bônus de Suzerano de {LOC_CIVILIZATION_CSE_BAIAE_NAME}"	),
 	("pt_BR",	"LOC_CSE_BAIAE_TRAIT_DESCRIPTION",			"Distritos de Entretenimento e Parque Aquático fornecem +1 de [ICON_FAVOR] Favor Diplomático por turno."	),
@@ -267,7 +267,7 @@ VALUES
 -----------------------------------------------
 	
 	("pt_BR",	"LOC_CIVILIZATION_CSE_BEIKTHANO_NAME",			"Beikthano"		),
-	("pt_BR",	"LOC_CIVILIZATION_CSE_BEIKTHANO_ADJECTIVE",		"Beikthanan"	),
+	("pt_BR",	"LOC_CIVILIZATION_CSE_BEIKTHANO_ADJECTIVE",		"Beikthanano"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_BEIKTHANO_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_BEIKTHANO_NAME}"		),
 	("pt_BR",	"LOC_CSE_BEIKTHANO_TRAIT_NAME",					"Bônus de Suzerano de {LOC_CIVILIZATION_CSE_BEIKTHANO_NAME}"	),
 	("pt_BR",	"LOC_CSE_BEIKTHANO_TRAIT_DESCRIPTION",			"Suas cidades ganham +3 [ICON_RANGED] de Força de Ataque a distância e +5 [ICON_STRENGTH] Força de defesa para cada nível de muralha construída."	),
@@ -282,7 +282,7 @@ VALUES
 -----------------------------------------------
 	
 	("pt_BR",	"LOC_CIVILIZATION_CSE_BUTUAN_NAME",			"Butuan"	),
-	("pt_BR",	"LOC_CIVILIZATION_CSE_BUTUAN_ADJECTIVE",	"Butuan"	),
+	("pt_BR",	"LOC_CIVILIZATION_CSE_BUTUAN_ADJECTIVE",	"Butuano"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_BUTUAN_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_BUTUAN_NAME}"		),
 	("pt_BR",	"LOC_CSE_BUTUAN_TRAIT_NAME",				"{LOC_CIVILIZATION_CSE_BUTUAN_NAME}"	),
 	("pt_BR",	"LOC_CSE_BUTUAN_TRAIT_DESCRIPTION",			"Suas unidades terrestres ganham +2 de [ICON_MOVEMENT] Movimento quando enbarcadas e ignoram custos adicionais de [ICON_MOVEMENT] Movimento de embarcar e desembarcar."	),
@@ -302,7 +302,7 @@ VALUES
 -----------------------------------------------
 	
 	("pt_BR",	"LOC_CIVILIZATION_CSE_CATALHOYUK_NAME",			"Catalhoyuk"	),
-	("pt_BR",	"LOC_CIVILIZATION_CSE_CATALHOYUK_ADJECTIVE",	"Catalhoyuk"	),
+	("pt_BR",	"LOC_CIVILIZATION_CSE_CATALHOYUK_ADJECTIVE",	"de Catalhoyuk"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_CATALHOYUK_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_CATALHOYUK_NAME}"		),
 	("pt_BR",	"LOC_CSE_CATALHOYUK_TRAIT_NAME",				"{LOC_CIVILIZATION_CSE_CATALHOYUK_NAME}"	),
 	("pt_BR",	"LOC_CSE_CATALHOYUK_TRAIT_DESCRIPTION",			"Receba os recursos de luxo [ICON_RESOURCE_CSE_LEATHER] Couro e [ICON_RESOURCE_CSE_WOOL] Lã (não negociáveis), que fornecem 6 [ICON_AMENITIES] Serviços cada."	),
@@ -325,7 +325,7 @@ VALUES
 -----------------------------------------------
 	
 	("pt_BR",	"LOC_CIVILIZATION_CSE_CHAN_CHAN_NAME",			"Chan Chan"	),
-	("pt_BR",	"LOC_CIVILIZATION_CSE_CHAN_CHAN_ADJECTIVE",		"Chan Chan"	),
+	("pt_BR",	"LOC_CIVILIZATION_CSE_CHAN_CHAN_ADJECTIVE",		"de Chan Chan"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_CHAN_CHAN_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_CHAN_CHAN_NAME}"		),
 	("pt_BR",	"LOC_CSE_CHAN_CHAN_TRAIT_NAME",					"Bônus de Suzerano de {LOC_CIVILIZATION_CSE_CHAN_CHAN_NAME}"	),
 	("pt_BR",	"LOC_CSE_CHAN_CHAN_TRAIT_DESCRIPTION",			"Seu Palácio fornece o dobro de [ICON_PRODUCTION] Produção, [ICON_SCIENCE] Ciência, [ICON_CULTURE] Cultura, [ICON_GOLD] Ouro, [ICON_AMENITIES] Serviços e [ICON_HOUSING] Habitação. Distritos Especializados fornecem +50% do seu tipo de recurso quando adjacente a um Plaza Governamental, Complexo de Entretenimento ou Parque Aquático."	),
@@ -344,7 +344,7 @@ VALUES
 -----------------------------------------------
 	
 	("pt_BR",	"LOC_CIVILIZATION_CSE_CHETRO_KETL_NAME",			"Chetro Ketl"	),
-	("pt_BR",	"LOC_CIVILIZATION_CSE_CHETRO_KETL_ADJECTIVE",		"Chacoan"	),
+	("pt_BR",	"LOC_CIVILIZATION_CSE_CHETRO_KETL_ADJECTIVE",		"Chacoano"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_CHETRO_KETL__DESCRIPTION",	"Cidade-Estado de {LOC_CIVILIZATION_CSE_CHETRO_KETL_NAME}"		),
 	("pt_BR",	"LOC_CSE_CHETRO_KETL_TRAIT_NAME",					"Bônus de Suzerano de {LOC_CIVILIZATION_CSE_CHETRO_KETL_NAME}"	),
 	("pt_BR",	"LOC_CSE_CHETRO_KETL_TRAIT_DESCRIPTION",			"Seus construtores podem construir as melhorias Kiva.[NEWLINE][NEWLINE]Kivas fornecem +2 de [ICON_FAITH] Fé e +0.5 [ICON_HOUSING] Habitação, com [ICON_FAITH] Fé, [ICON_FOOD] Comida e [ICON_PRODUCTION] Produção adicionais de painés de Pradarias e Planícies adjacentes conforme progride nas árvores tecnológica e cívica. Deve ser construído em painéis de deserto."	),
@@ -366,7 +366,7 @@ VALUES
 -----------------------------------------------
 	
 	("pt_BR",	"LOC_CIVILIZATION_CSE_DAKAR_NAME",			"Dakar"	),
-	("pt_BR",	"LOC_CIVILIZATION_CSE_DAKAR_ADJECTIVE",		"Dakar"	),
+	("pt_BR",	"LOC_CIVILIZATION_CSE_DAKAR_ADJECTIVE",		"de Dakar"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_DAKAR_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_DAKAR_NAME}"		),
 	("pt_BR",	"LOC_CSE_DAKAR_TRAIT_NAME",					"Bônus de Suzerano de {LOC_CIVILIZATION_CSE_DAKAR_NAME}"	),
 	("pt_BR",	"LOC_CSE_DAKAR_TRAIT_DESCRIPTION",			"Edificações nos distritos de Porto fornecem +1 [ICON_GREATPERSON] Ponto de Grande Personalidades para [ICON_GREATMERCHANT] Grandes Mercadores."	),
@@ -382,7 +382,7 @@ VALUES
 -----------------------------------------------
 	
 	("pt_BR",	"LOC_CIVILIZATION_CSE_DELOS_NAME",			"Delos"		),
-	("pt_BR",	"LOC_CIVILIZATION_CSE_DELOS_ADJECTIVE",		"Delosian"	),
+	("pt_BR",	"LOC_CIVILIZATION_CSE_DELOS_ADJECTIVE",		"Delosiano"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_DELOS_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_DELOS_NAME}"		),
 	("pt_BR",	"LOC_CSE_DELOS_TRAIT_NAME",					"Bônus de Suzerano de {LOC_CIVILIZATION_CSE_DELOS_NAME}"	),
 	("pt_BR",	"LOC_CSE_DELOS_TRAIT_DESCRIPTION",			"Painéis sem colinas com apelo de tirar o fôlego fornecem o dobro dos seus recursos de terreno em cidades com um distrito de Complexo de Entretenimento ou Parque Aquático."	),
@@ -398,8 +398,8 @@ VALUES
 -- City-State | Delphi
 -----------------------------------------------
 	
-	("pt_BR",	"LOC_CIVILIZATION_CSE_DELPHI_NAME",			"Delphi"	),
-	("pt_BR",	"LOC_CIVILIZATION_CSE_DELPHI_ADJECTIVE",	"Delphine"	),
+	("pt_BR",	"LOC_CIVILIZATION_CSE_DELPHI_NAME",			"Delfos"	),
+	("pt_BR",	"LOC_CIVILIZATION_CSE_DELPHI_ADJECTIVE",	"Delfina"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_DELPHI_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_DELPHI_NAME}"		),
 	("pt_BR",	"LOC_CSE_DELPHI_TRAIT_NAME",				"{LOC_CIVILIZATION_CSE_DELPHI_NAME}"	),
 	("pt_BR",	"LOC_CSE_DELPHI_TRAIT_DESCRIPTION",			"Maravilhas exercem +2 Pressão de Lealdade e geram uma explosão cultural quando completadas."	),
@@ -415,7 +415,7 @@ VALUES
 -----------------------------------------------
 	
 	("pt_BR",	"LOC_CIVILIZATION_CSE_DJIBOUTI_NAME",			"Djibouti"	),
-	("pt_BR",	"LOC_CIVILIZATION_CSE_DJIBOUTI_ADJECTIVE",		"Djibouti"	),
+	("pt_BR",	"LOC_CIVILIZATION_CSE_DJIBOUTI_ADJECTIVE",		"de Djibouti"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_DJIBOUTI_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_DJIBOUTI_NAME}"		),
 	("pt_BR",	"LOC_CSE_DJIBOUTI_TRAIT_NAME",					"Bônus de Suzerano de {LOC_CIVILIZATION_CSE_DJIBOUTI_NAME}"	),
 	("pt_BR",	"LOC_CSE_DJIBOUTI_TRAIT_DESCRIPTION",			"Painéis de água rasa fornecem +1 de [ICON_FOOD] Comida. +1 de [ICON_FOOD] Comida adicional quando você alcançar a Era Industrial."	),
@@ -431,7 +431,7 @@ VALUES
 -----------------------------------------------
 	
 	("pt_BR",	"LOC_CIVILIZATION_CSE_DODONA_NAME",			"Dodona"	),
-	("pt_BR",	"LOC_CIVILIZATION_CSE_DODONA_ADJECTIVE",	"Dodona"	),
+	("pt_BR",	"LOC_CIVILIZATION_CSE_DODONA_ADJECTIVE",	"de Dodona"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_DODONA_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_DODONA_NAME}"		),
 	("pt_BR",	"LOC_CSE_DODONA_TRAIT_NAME",				"{LOC_CIVILIZATION_CSE_DODONA_NAME}"	),
 
@@ -449,7 +449,7 @@ VALUES
 -----------------------------------------------
 	
 	("pt_BR",	"LOC_CIVILIZATION_CSE_ETZANOA_NAME",			"Etzanoa"	),
-	("pt_BR",	"LOC_CIVILIZATION_CSE_ETZANOA_ADJECTIVE",		"Etzanoan"	),
+	("pt_BR",	"LOC_CIVILIZATION_CSE_ETZANOA_ADJECTIVE",		"Etzanoano"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_ETZANOA__DESCRIPTION",	"Cidade-Estado de {LOC_CIVILIZATION_CSE_ETZANOA_NAME}"		),
 	("pt_BR",	"LOC_CSE_ETZANOA_TRAIT_NAME",					"Bônus de Suzerano de {LOC_CIVILIZATION_CSE_ETZANOA_NAME}"	),
 	("pt_BR",	"LOC_CSE_ETZANOA_TRAIT_DESCRIPTION",			"Distritos de Bairro recebem mais +1 de [ICON_HOUSING] Habitação para cada distrito adjacente do mesmo tipo."	),
@@ -465,7 +465,7 @@ VALUES
 -----------------------------------------------
 	
 	("pt_BR",	"LOC_CIVILIZATION_CSE_GARAMA_NAME",			"Garama"	),
-	("pt_BR",	"LOC_CIVILIZATION_CSE_GARAMA_ADJECTIVE",	"Garama"	),
+	("pt_BR",	"LOC_CIVILIZATION_CSE_GARAMA_ADJECTIVE",	"de Garama"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_GARAMA_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_GARAMA_NAME}"		),
 	("pt_BR",	"LOC_CSE_GARAMA_TRAIT_NAME",				"{LOC_CIVILIZATION_CSE_GARAMA_NAME}"	),
 	("pt_BR",	"LOC_CSE_GARAMA_TRAIT_DESCRIPTION",			"+2 de [ICON_FOOD] Comida em Oásis e painéis terrestres adjacentes. +1 de [ICON_FOOD] Comida em painéis terrestres a até 2 painéis de distância."	),
@@ -483,7 +483,7 @@ VALUES
 -----------------------------------------------
 	
 	("pt_BR",	"LOC_CIVILIZATION_CSE_GOBEKLI_TEPE_NAME",			"Gobekli Tepe"	),
-	("pt_BR",	"LOC_CIVILIZATION_CSE_GOBEKLI_TEPE_ADJECTIVE",		"Gobekli Tepe"	),
+	("pt_BR",	"LOC_CIVILIZATION_CSE_GOBEKLI_TEPE_ADJECTIVE",		"de Gobekli Tepe"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_GOBEKLI_TEPE_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_GOBEKLI_TEPE_NAME}"		),
 	("pt_BR",	"LOC_CSE_GOBEKLI_TEPE_TRAIT_NAME",					"Bônus de Suzerano de {LOC_CIVILIZATION_CSE_GOBEKLI_TEPE_NAME}"	),
 	("pt_BR",	"LOC_CSE_GOBEKLI_TEPE_TRAIT_DESCRIPTION",			"Maravilhas fornecem +1 de [ICON_CULTURE] Cultura em [ICON_TRADEROUTE] Rotas Comerciais domésticas para esta cidade."	),
@@ -500,7 +500,7 @@ VALUES
 -----------------------------------------------
 	
 	("pt_BR",	"LOC_CIVILIZATION_CSE_GUNDESHAPUR_NAME",		"Gundeshapur"	),
-	("pt_BR",	"LOC_CIVILIZATION_CSE_GUNDESHAPUR_ADJECTIVE",	"Gundeshapur"	),
+	("pt_BR",	"LOC_CIVILIZATION_CSE_GUNDESHAPUR_ADJECTIVE",	"de Gundeshapur"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_GUNDESHAPUR_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_GUNDESHAPUR_NAME}"		),
 	("pt_BR",	"LOC_CSE_GUNDESHAPUR_TRAIT_NAME",				"{LOC_CIVILIZATION_CSE_GUNDESHAPUR_NAME}"	),
 	("pt_BR",	"LOC_CSE_GUNDESHAPUR_TRAIT_DESCRIPTION",		"Recebem 2 [ICON_TECHBOOSTED] Eurekas ao entrar em uma nova era. Distritos de Campus recebem +1 de [ICON_SCIENCE] Ciência para cada 2 distritos adjacentes."	),
@@ -516,7 +516,7 @@ VALUES
 -----------------------------------------------
 	
 	("pt_BR",	"LOC_CIVILIZATION_CSE_HADAD_NAME",			"Hadad"	),
-	("pt_BR",	"LOC_CIVILIZATION_CSE_HADAD_ADJECTIVE",		"Hadad"	),
+	("pt_BR",	"LOC_CIVILIZATION_CSE_HADAD_ADJECTIVE",		"de Hadad"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_HADAD_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_HADAD_NAME}"		),
 	("pt_BR",	"LOC_CSE_HADAD_TRAIT_NAME",					"Bônus de Suzerano de {LOC_CIVILIZATION_CSE_HADAD_NAME}"	),
 	("pt_BR",	"LOC_CSE_HADAD_TRAIT_DESCRIPTION",			"Cidades com um [ICON_GOVERNOR] Governador estabelecido recebem +2 de [ICON_AMENITIES] Serviços."	),
@@ -537,7 +537,7 @@ VALUES
 -----------------------------------------------
 	
 	("pt_BR",	"LOC_CIVILIZATION_CSE_HALIN_NAME",			"Halin"		),
-	("pt_BR",	"LOC_CIVILIZATION_CSE_HALIN_ADJECTIVE",		"Halin"		),
+	("pt_BR",	"LOC_CIVILIZATION_CSE_HALIN_ADJECTIVE",		"de Halin"		),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_HALIN_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_HALIN_NAME}"		),
 	("pt_BR",	"LOC_CSE_HALIN_TRAIT_NAME",					"Bônus de Suzerano de {LOC_CIVILIZATION_CSE_HALIN_NAME}"	),
 	("pt_BR",	"LOC_CSE_HALIN_TRAIT_DESCRIPTION",			"Suas cidades produzem +0.5 de [ICON_FAITH] Fé por [ICON_CITIZEN] População."	),
@@ -554,7 +554,7 @@ VALUES
 -----------------------------------------------
 	
 	("pt_BR",	"LOC_CIVILIZATION_CSE_HAVANA_NAME",			"Havana"	),
-	("pt_BR",	"LOC_CIVILIZATION_CSE_HAVANA_ADJECTIVE",	"Havana"	),
+	("pt_BR",	"LOC_CIVILIZATION_CSE_HAVANA_ADJECTIVE",	"de Havana"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_HAVANA_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_HAVANA_NAME}"		),
 	("pt_BR",	"LOC_CSE_HAVANA_TRAIT_NAME",				"{LOC_CIVILIZATION_CSE_HAVANA_NAME}"	),
 	("pt_BR",	"LOC_CSE_HAVANA_TRAIT_DESCRIPTION",			"Grandes Obras de [ICON_GREATWORK_WRITING] Escrita, [ICON_GREATWORK_LANDSCAPE] Arte, and [ICON_GREATWORK_MUSIC] Música fornecem +2 de [ICON_GOLD] Ouro para cada edificação de Porto na cidade."	),
@@ -570,7 +570,7 @@ VALUES
 -----------------------------------------------
 	
 	("pt_BR",	"LOC_CIVILIZATION_CSE_HAZOR_NAME",			"Hazor"		),
-	("pt_BR",	"LOC_CIVILIZATION_CSE_HAZOR_ADJECTIVE",		"Hazor"		),
+	("pt_BR",	"LOC_CIVILIZATION_CSE_HAZOR_ADJECTIVE",		"de Hazor"		),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_HAZOR_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_HAZOR_NAME}"		),
 	("pt_BR",	"LOC_CSE_HAZOR_TRAIT_NAME",					"Bônus de Suzerano de {LOC_CIVILIZATION_CSE_HAZOR_NAME}"	),
 	("pt_BR",	"LOC_CSE_HAZOR_TRAIT_DESCRIPTION",			"Unidades lutam com máximo de força mesmo quando [ICON_DAMAGED] feridas."	),
@@ -609,7 +609,7 @@ VALUES
 -----------------------------------------------
 	
 	("pt_BR",	"LOC_CIVILIZATION_CSE_HVALSEY_NAME",			"Hvalsey"		),
-	("pt_BR",	"LOC_CIVILIZATION_CSE_HVALSEY_ADJECTIVE",		"Hvalsey"		),
+	("pt_BR",	"LOC_CIVILIZATION_CSE_HVALSEY_ADJECTIVE",		"de Hvalsey"		),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_HVALSEY__DESCRIPTION",	"Cidade-Estado de {LOC_CIVILIZATION_CSE_HVALSEY_NAME}"			),
 	("pt_BR",	"LOC_CSE_HVALSEY_TRAIT_NAME",					"Bônus de Suzerano de {LOC_CIVILIZATION_CSE_HVALSEY_NAME}"		),
 	("pt_BR",	"LOC_CSE_HVALSEY_TRAIT_DESCRIPTION",			"Melhorias de Barcos Pesqueiros a 2 painéis de Tundra, Neve ou Gelo fornecem +1 de [ICON_FOOD] Comida e +1 de [ICON_PRODUCTION] Produção."	),
@@ -625,7 +625,7 @@ VALUES
 -----------------------------------------------
 	
 	("pt_BR",	"LOC_CIVILIZATION_CSE_IQALUIT_NAME",			"Iqaluit"		),
-	("pt_BR",	"LOC_CIVILIZATION_CSE_IQALUIT_ADJECTIVE",		"Iqaluit"		),
+	("pt_BR",	"LOC_CIVILIZATION_CSE_IQALUIT_ADJECTIVE",		"de Iqaluit"		),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_IQALUIT__DESCRIPTION",	"Cidade-Estado de {LOC_CIVILIZATION_CSE_IQALUIT_NAME}"						),
 	("pt_BR",	"LOC_CSE_IQALUIT_TRAIT_NAME",					"Bônus de Suzerano de {LOC_CIVILIZATION_CSE_IQALUIT_NAME}"					),
 	("pt_BR",	"LOC_CSE_IQALUIT_TRAIT_DESCRIPTION",			"Painéis de Tundra e Neve adjacentes a costa fornecem +2 de [ICON_FOOD] Comida."	),
@@ -644,7 +644,7 @@ VALUES
 -----------------------------------------------
 	
 	("pt_BR",	"LOC_CIVILIZATION_CSE_IZAPA_NAME",			"Izapa"	),
-	("pt_BR",	"LOC_CIVILIZATION_CSE_IZAPA_ADJECTIVE",		"Izapa"	),
+	("pt_BR",	"LOC_CIVILIZATION_CSE_IZAPA_ADJECTIVE",		"Izapana"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_IZAPA_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_IZAPA_NAME}"		),
 	("pt_BR",	"LOC_CSE_IZAPA_TRAIT_NAME",					"Bônus de Suzerano de {LOC_CIVILIZATION_CSE_IZAPA_NAME}"	),
 	("pt_BR",	"LOC_CSE_IZAPA_TRAIT_DESCRIPTION",			"[ICON_TECHBOOSTED] Eurekas fornecem +10% do custo de Tecnologias durante uma [ICON_GLORY_GOLDEN_AGE] Era Dourada, e Pontos de Era adicionais durante uma [ICON_GLORY_DARK_AGE] Era Negra."	),
@@ -677,7 +677,7 @@ VALUES
 -----------------------------------------------
 	
 	("pt_BR",	"LOC_CIVILIZATION_CSE_JOLO_NAME",			"Jolo"	),
-	("pt_BR",	"LOC_CIVILIZATION_CSE_JOLO_ADJECTIVE",		"Jolo"	),
+	("pt_BR",	"LOC_CIVILIZATION_CSE_JOLO_ADJECTIVE",		"de Jolo"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_JOLO_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_JOLO_NAME}"		),
 	("pt_BR",	"LOC_CSE_JOLO_TRAIT_NAME",					"Bônus de Suzerano de {LOC_CIVILIZATION_CSE_JOLO_NAME}"	),
 	("pt_BR",	"LOC_CSE_JOLO_TRAIT_DESCRIPTION",			"Recebe os recursos de luxo [ICON_RESOURCE_CSE_ABACA] Abacá e [ICON_RESOURCE_CSE_MANGOSTEEN] Mangostim (não negociáveis), que fornecem 6 [ICON_AMENITIES] Serviços cada."	),
@@ -702,7 +702,7 @@ VALUES
 -----------------------------------------------
 	
 	("pt_BR",	"LOC_CIVILIZATION_CSE_KADESH_NAME",			"Kadesh"	),
-	("pt_BR",	"LOC_CIVILIZATION_CSE_KADESH_ADJECTIVE",	"Kadesh"	),
+	("pt_BR",	"LOC_CIVILIZATION_CSE_KADESH_ADJECTIVE",	"de Kadesh"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_KADESH_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_KADESH_NAME}"		),
 	("pt_BR",	"LOC_CSE_KADESH_TRAIT_NAME",				"{LOC_CIVILIZATION_CSE_KADESH_NAME}"	),
 	("pt_BR",	"LOC_CSE_KADESH_TRAIT_DESCRIPTION",			"Suas unidades de Cavalaria Pesada ganham a habilidade de empurrar unidades defensoras."	),
@@ -725,7 +725,7 @@ VALUES
 -----------------------------------------------
 	
 	("pt_BR",	"LOC_CIVILIZATION_CSE_KANNAUJ_NAME",		"Kannauj"	),
-	("pt_BR",	"LOC_CIVILIZATION_CSE_KANNAUJ_ADJECTIVE",	"Kannauj"	),
+	("pt_BR",	"LOC_CIVILIZATION_CSE_KANNAUJ_ADJECTIVE",	"Kannaujiana"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_KANNAUJ_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_KANNAUJ_NAME}"		),
 	("pt_BR",	"LOC_CSE_KANNAUJ_TRAIT_NAME",				"{LOC_CIVILIZATION_CSE_KANNAUJ_NAME}"	),
 	("pt_BR",	"LOC_CSE_KANNAUJ_TRAIT_DESCRIPTION",		"Você não acumula fadiga de guerra por combate no teu território."	),
@@ -741,7 +741,7 @@ VALUES
 -----------------------------------------------
 	
 	("pt_BR",	"LOC_CIVILIZATION_CSE_KATARAGAMA_NAME",			"Kataragama"	),
-	("pt_BR",	"LOC_CIVILIZATION_CSE_KATARAGAMA_ADJECTIVE",	"Kataragama"	),
+	("pt_BR",	"LOC_CIVILIZATION_CSE_KATARAGAMA_ADJECTIVE",	"de Kataragama"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_KATARAGAMA_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_KATARAGAMA_NAME}"		),
 	("pt_BR",	"LOC_CSE_KATARAGAMA_TRAIT_NAME",				"{LOC_CIVILIZATION_CSE_KATARAGAMA_NAME}"	),
 	("pt_BR",	"LOC_CSE_KATARAGAMA_TRAIT_DESCRIPTION",			"Painéis de água doce e adjacentes fornecem +1 de [ICON_FAITH] Fé."	),
@@ -760,7 +760,7 @@ VALUES
 -----------------------------------------------
 	
 	("pt_BR",	"LOC_CIVILIZATION_CSE_KELANIYA_NAME",			"Kelaniya"	),
-	("pt_BR",	"LOC_CIVILIZATION_CSE_KELANIYA_ADJECTIVE",		"Kelaniya"	),
+	("pt_BR",	"LOC_CIVILIZATION_CSE_KELANIYA_ADJECTIVE",		"de Kelaniya"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_KELANIYA_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_KELANIYA_NAME}"		),
 	("pt_BR",	"LOC_CSE_KELANIYA_TRAIT_NAME",					"Bônus de Suzerano de {LOC_CIVILIZATION_CSE_KELANIYA_NAME}"	),
 	("pt_BR",	"LOC_CSE_KELANIYA_TRAIT_DESCRIPTION",			"Grandes Obras de [ICON_GREATWORK_LANDSCAPE] Arte fornecem +2 de [ICON_FAITH] Fé e Grandes Obras de [ICON_GREATWORK_WRITING] Escrita fornecem +1 de [ICON_CULTURE] Cultura."	),
@@ -779,7 +779,7 @@ VALUES
 -----------------------------------------------
 	
 	("pt_BR",	"LOC_CIVILIZATION_CSE_KUHIKUGU_NAME",			"Kuhikugu"	),
-	("pt_BR",	"LOC_CIVILIZATION_CSE_KUHIKUGU_ADJECTIVE",		"Kuhikugan"	),
+	("pt_BR",	"LOC_CIVILIZATION_CSE_KUHIKUGU_ADJECTIVE",		"de Kuhikugan"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_KUHIKUGU_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_KUHIKUGU_NAME}"		),
 	("pt_BR",	"LOC_CSE_KUHIKUGU_TRAIT_NAME",					"Bônus de Suzerano de {LOC_CIVILIZATION_CSE_KUHIKUGU_NAME}"	),
 	("pt_BR",	"LOC_CSE_KUHIKUGU_TRAIT_DESCRIPTION",			"Fazendas construídas adjacentes a Florestas Tropicais fornecem +1 de [ICON_FOOD] Comida e +2 de [ICON_GOLD] Ouro."	),
@@ -796,7 +796,7 @@ VALUES
 -----------------------------------------------
 	
 	("pt_BR",	"LOC_CIVILIZATION_CSE_LIMA_NAME",			"Lima"	),
-	("pt_BR",	"LOC_CIVILIZATION_CSE_LIMA_ADJECTIVE",		"Lima"	),
+	("pt_BR",	"LOC_CIVILIZATION_CSE_LIMA_ADJECTIVE",		"de Lima"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_LIMA_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_LIMA_NAME}"		),
 	("pt_BR",	"LOC_CSE_LIMA_TRAIT_NAME",					"Bônus de Suzerano de {LOC_CIVILIZATION_CSE_LIMA_NAME}"	),
 	("pt_BR",	"LOC_CSE_LIMA_TRAIT_DESCRIPTION",			"Suas cidades podem construir um distrito a mais que a sua [ICON_CITIZEN] População permitiria se possuir um Campus. Recebe +50% de [ICON_PRODUCTION] Produção para distritos de Campus."	),
@@ -812,7 +812,7 @@ VALUES
 -----------------------------------------------
 	
 	("pt_BR",	"LOC_CIVILIZATION_CSE_MACAU_NAME",			"Macau"	),
-	("pt_BR",	"LOC_CIVILIZATION_CSE_MACAU_ADJECTIVE",		"Macau"	),
+	("pt_BR",	"LOC_CIVILIZATION_CSE_MACAU_ADJECTIVE",		"de Macau"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_MACAU_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_MACAU_NAME}"		),
 	("pt_BR",	"LOC_CSE_MACAU_TRAIT_NAME",					"Bônus de Suzerano de {LOC_CIVILIZATION_CSE_MACAU_NAME}"	),
 	("pt_BR",	"LOC_CSE_MACAU_TRAIT_DESCRIPTION",			"+25% de [ICON_TOURISM] Turismo para civilizações com a qual você tenha uma [ICON_TRADEROUTE] Rota Comercial."	),
@@ -828,7 +828,7 @@ VALUES
 -----------------------------------------------
 	
 	("pt_BR",	"LOC_CIVILIZATION_CSE_MAI_NAME",		"Ma'i"	),
-	("pt_BR",	"LOC_CIVILIZATION_CSE_MAI_ADJECTIVE",	"Ma'i"	),
+	("pt_BR",	"LOC_CIVILIZATION_CSE_MAI_ADJECTIVE",	"de Ma'i"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_MAI_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_MAI_NAME}"		),
 	("pt_BR",	"LOC_CSE_MAI_TRAIT_NAME",				"{LOC_CIVILIZATION_CSE_MAI_NAME}"	),
 	("pt_BR",	"LOC_CSE_MAI_TRAIT_DESCRIPTION",		"Recebe os recursos de luxo [ICON_RESOURCE_CSE_BEESWAX] Cera de Abelha e [ICON_RESOURCE_CSE_BETEL_NUT] Noz de Areque (não negociáveis), que fornecem 6 [ICON_AMENITIES] Serviços cada."	),
@@ -852,7 +852,7 @@ VALUES
 -----------------------------------------------
 	
 	("pt_BR",	"LOC_CIVILIZATION_CSE_MAINGMAW_NAME",			"Maingmaw"	),
-	("pt_BR",	"LOC_CIVILIZATION_CSE_MAINGMAW_ADJECTIVE",		"Maingmaw"	),
+	("pt_BR",	"LOC_CIVILIZATION_CSE_MAINGMAW_ADJECTIVE",		"de Maingmaw"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_MAINGMAW_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_MAINGMAW_NAME}"		),
 	("pt_BR",	"LOC_CSE_MAINGMAW_TRAIT_NAME",					"Bônus de Suzerano de {LOC_CIVILIZATION_CSE_MAINGMAW_NAME}"	),
 	("pt_BR",	"LOC_CSE_MAINGMAW_TRAIT_DESCRIPTION",			"Painéis melhorados adjacentes a um rio fornecem +1 de [ICON_FOOD] Comida e +1 de [ICON_GOLD] Ouro."	),
@@ -860,36 +860,36 @@ VALUES
 	("pt_BR",	"LOC_LEADER_MINOR_CIV_CSE_MAINGMAW_NAME",		"{LOC_CIVILIZATION_CSE_MAINGMAW_NAME}"	),
 	("pt_BR",	"LOC_CITY_NAME_MAINGMAW",						"{LOC_CIVILIZATION_CSE_MAINGMAW_NAME}"	),
 
-	("pt_BR",	"LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_CSE_MAINGMAW_CHAPTER_HISTORY_PARA_1",	"Maingmaw was founded some time in the first millenium BC, and was one of the largest ancient cities in the region. It was protected by three walls - an outer ring, a square inner wall, and then another circular keep. A canal ran through the city."	),
-	("pt_BR",	"LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_CSE_MAINGMAW_CHAPTER_HISTORY_PARA_2",	"In the 19th century, the Nandawya Paya temple was built in the centre of the ancient city site, possibly on top of an old temple ruin."	),
+	("pt_BR",	"LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_CSE_MAINGMAW_CHAPTER_HISTORY_PARA_1",	"Maingmaw foi fundada em algum momento no primeiro milênio aC e foi uma das maiores cidades antigas da região Kyaukse. Era protegido por três paredes - um anel externo, uma parede interna quadrada e depois outra torre circular. Um canal corria pela cidade."	),
+	("pt_BR",	"LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_CSE_MAINGMAW_CHAPTER_HISTORY_PARA_2",	"No século XIX, o templo de Nandawya Paya foi construído no centro do antigo local da cidade, possivelmente em cima de uma antiga ruína do templo."	),
 
 -----------------------------------------------
 -- City-State | Marrakech TODO
 -----------------------------------------------
 	
 	("pt_BR",	"LOC_CIVILIZATION_CSE_MARRAKECH_NAME",			"Marrakech"	),
-	("pt_BR",	"LOC_CIVILIZATION_CSE_MARRAKECH_ADJECTIVE",		"Marrakech"	),
+	("pt_BR",	"LOC_CIVILIZATION_CSE_MARRAKECH_ADJECTIVE",		"de Marrakech"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_MARRAKECH_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_MARRAKECH_NAME}"		),
 	("pt_BR",	"LOC_CSE_MARRAKECH_TRAIT_NAME",					"Bônus de Suzerano de {LOC_CIVILIZATION_CSE_MARRAKECH_NAME}"	),
-	("pt_BR",	"LOC_CSE_MARRAKECH_TRAIT_DESCRIPTION",			"Seus construtores podem construir a melhoria Riad."	),
+	("pt_BR",	"LOC_CSE_MARRAKECH_TRAIT_DESCRIPTION",			"Seus construtores podem construir a melhoria Riad.[NEWLINE][NEWLINE]Fornece +1 de [ICON_FOOD] Comida, +1 de [ICON_CULTURE] Cultura e +0.5 de [ICON_HOUSING] Habitação. +1 de [ICON_FOOD] Comida para cada Oásis adjacente Oasis ou para cada 2 planícies alagadas, e +1 de [ICON_CULTURE] Cultura para cada 2 Riads ajacentes. Concede +1 de [ICON_GOLD] Ouro em [ICON_TRADEROUTE] Rotas Comerciais desta cidade. Deve ser construído em painéis de Desertos ou Colinas de Desertos."	),
 	
 	("pt_BR",	"LOC_LEADER_MINOR_CIV_CSE_MARRAKECH_NAME",		"{LOC_CIVILIZATION_CSE_MARRAKECH_NAME}"	),
 	("pt_BR",	"LOC_CITY_NAME_MARRAKECH",						"{LOC_CIVILIZATION_CSE_MARRAKECH_NAME}"	),
 
-	("pt_BR",	"LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_CSE_MARRAKECH_CHAPTER_HISTORY_PARA_1",		"Marrakech is a major city of the Kingdom of Morocco. Located to the north of the snow-capped Atlas Mountains, the region has been inhabited by Berber farmers since the Neolithic period, but the actual city was founded in 1062, by Abu Bakr ibn Umar. It became one of the great citadels of the Muslim world, the ramparts of its fortress standing to this day. Marrakech is one of North Africa's largest centers of trade, despite the illegality of most of this trade. "	),
+	("pt_BR",	"LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_CSE_MARRAKECH_CHAPTER_HISTORY_PARA_1",		"Marrakech é uma das principais cidades do Reino de Marrocos. Localizada ao norte das nevadas Montanhas do Atlas, a região foi habitada por agricultores berberes desde o período neolítico, mas a cidade foi fundada em 1062, por Abu Bakr ibn Umar. Tornou-se uma das grandes cidadelas do mundo muçulmano, as muralhas de sua fortaleza estando de pé até hoje. Marrakech é um dos maiores centros de comércio do Norte da África, apesar da ilegalidade da maior parte desse comércio. "	),
 
 
 	("pt_BR",	"LOC_IMPROVEMENT_CSE_RIAD_NAME",				"Riad"	),
-	("pt_BR",	"LOC_IMPROVEMENT_CSE_RIAD_DESCRIPTION",			"Unlocks the Builder ability to construct a Riad.[NEWLINE][NEWLINE]Yields +1 de [ICON_FOOD] Comida, +1 de [ICON_CULTURE] Cultura and +0.5 [ICON_HOUSING] Housing. +1 de [ICON_FOOD] Comida for each adjacent Oasis or for every two adjacent Floodplains, and +1 de [ICON_CULTURE] Cultura for every two adjacent Riads. Grants +1 de [ICON_GOLD] Ouro on [ICON_TRADEROUTE] Trade Routes from this city. Must be built on Desert or Desert Hill tiles."	),
+	("pt_BR",	"LOC_IMPROVEMENT_CSE_RIAD_DESCRIPTION",			"Fornece mais +1 de [ICON_FOOD] Comida, +1 de [ICON_CULTURE] Cultura e +0.5 de [ICON_HOUSING] Habitação. +1 de [ICON_FOOD] Comida para cada Oásis adjacente Oasis ou para cada 2 planícies alagadas, e +1 de [ICON_CULTURE] Cultura para cada 2 Riads ajacentes. Concede +1 de [ICON_GOLD] Ouro em [ICON_TRADEROUTE] Rotas Comerciais desta cidade. Deve ser construído em painéis de Desertos ou Colinas de Desertos."	),
 	
-	("pt_BR",	"LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_CSE_RIAD_CHAPTER_HISTORY_PARA_1",			"A riad is a type of traditional Moroccan house or palace with an interior garden or courtyard. Often the stately homes of the wealthiest citizens such as merchants or courtiers, Riads were inward-focused with a courtyard in the atrium space to allow for family privacy and protection."	),
+	("pt_BR",	"LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_CSE_RIAD_CHAPTER_HISTORY_PARA_1",			"Um riad é um tipo de casa ou palácio tradicional marroquino com jardim interno ou pátio. Muitas vezes servindo como mansões dos cidadãos mais ricos, como comerciantes ou cortesãos, os Riads eram voltados para dentro com um pátio no espaço do átrio para permitir a privacidade e a proteção da família."	),
 
 -----------------------------------------------
 -- City-State | Megiddo
 -----------------------------------------------
 	
-	("pt_BR",	"LOC_CIVILIZATION_CSE_MEGIDDO_NAME",			"Megiddo"	),
-	("pt_BR",	"LOC_CIVILIZATION_CSE_MEGIDDO_ADJECTIVE",		"Megiddo"	),
+	("pt_BR",	"LOC_CIVILIZATION_CSE_MEGIDDO_NAME",			"Megido"	),
+	("pt_BR",	"LOC_CIVILIZATION_CSE_MEGIDDO_ADJECTIVE",		"de Megido"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_MEGIDDO__DESCRIPTION",	"Cidade-Estado de {LOC_CIVILIZATION_CSE_MEGIDDO_NAME}"		),
 	("pt_BR",	"LOC_CSE_MEGIDDO_TRAIT_NAME",					"Bônus de Suzerano de {LOC_CIVILIZATION_CSE_MEGIDDO_NAME}"	),
 	("pt_BR",	"LOC_CSE_MEGIDDO_TRAIT_DESCRIPTION",			"Acampamentos fornecem +1 de [ICON_PRODUCTION] Produção e +2 de [ICON_GOLD] Ouro em [ICON_TRADEROUTE] Rotas Comerciais começando na sua cidade."	),
@@ -897,16 +897,16 @@ VALUES
 	("pt_BR",	"LOC_LEADER_MINOR_CIV_CSE_MEGIDDO_NAME",		"{LOC_CIVILIZATION_CSE_MEGIDDO_NAME}"	),
 	("pt_BR",	"LOC_CITY_NAME_MEGIDDO",						"{LOC_CIVILIZATION_CSE_MEGIDDO_NAME}"	),
 
-	("pt_BR",	"LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_CSE_MEGIDDO_CHAPTER_HISTORY_PARA_1",	"Megiddo is perhaps best known for its Greek name, Armageddon, which has come to mean 'the end of the world' due to prophecies regarding an apocalyptic final battle in the Biblical book of Revelation. In ancient times the city was the site of many battles due to its location, including the Battle of Megiddo in 1457 BC between Egyptian and Canaanite armies and is the first recorded use of the composite bow. Another famous battle is the Battle of Megiddo in 609 BC between Egypt and the Kingdom of Judah, which resulted in the Judean king's death."	),
-	("pt_BR",	"LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_CSE_MEGIDDO_CHAPTER_HISTORY_PARA_2",	"Megiddo has not been inhabited in over 2,500 years, but before that was continuously inhabited from about 7000 BC to 586 BC, resulting in (at present count) 26 layers of ruins. Situated at a strategic mountain pass and overlooking a fertile valley, Megiddo straddled valuable trade routes and grew to a large size. Its ruins contain impressive structures, including a massive temple dated to before 3100 BC and large palace complexes. Megiddo also was home to impressive stables, capable of housing almost 500 horses at a time."	),
-	("pt_BR",	"LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_CSE_MEGIDDO_CHAPTER_HISTORY_PARA_3",	"Over time the city's importance waned, and it was abandoned in 586 BC. Its ruins have been relatively undisturbed since then. Megiddo's remains theologically significant in Christianity, and the remains of a church dating from the 3rd century has been found nearby."	),
+	("pt_BR",	"LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_CSE_MEGIDDO_CHAPTER_HISTORY_PARA_1",	"Megido é talvez mais conhecido por seu nome grego, Armageddon, que veio a significar \"o fim do mundo\" devido a profecias sobre uma batalha final apocalíptica no livro bíblico do Apocalipse. Nos tempos antigos, a cidade foi o local de muitas batalhas devido à sua localização, incluindo a Batalha de Megido em 1457 aC entre os exércitos egípcio e cananeu e é o primeiro uso registrado do arco composto. Outra famosa batalha é a Batalha de Megido em 609 aC entre o Egito e o Reino de Judá, que resultou na morte do rei da Judéia."	),
+	("pt_BR",	"LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_CSE_MEGIDDO_CHAPTER_HISTORY_PARA_2",	"Megido não é habitada a mais de 2.500 anos, mas antes disso foi continuamente habitada de cerca de 7000 aC a 586 aC, resultando em (na contagem atual) 26 camadas de ruínas. Situada em uma passagem de montanha estratégica e com vista para um vale fértil, Megiddo se estendia por valiosas rotas comerciais e cresceu até um tamanho grande. Suas ruínas contêm estruturas impressionantes, incluindo um enorme templo datado de antes de 3100 aC e grandes complexos palacianos. Megiddo também abrigava estábulos impressionantes, capazes de abrigar quase 500 cavalos de cada vez."	),
+	("pt_BR",	"LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_CSE_MEGIDDO_CHAPTER_HISTORY_PARA_3",	"Com o tempo, a importância da cidade diminuiu e foi abandonada em 586 aC. Suas ruínas foram relativamente inalteradas desde então. Megiddo permanece teologicamente significativa no cristianismo, e os restos de uma igreja que data do século 3 foram encontrados nas proximidades."	),
 
 -----------------------------------------------
 -- City-State | Mehgarh
 -----------------------------------------------
 	
 	("pt_BR",	"LOC_CIVILIZATION_CSE_MEHRGARH_NAME",			"Mehgarh"	),
-	("pt_BR",	"LOC_CIVILIZATION_CSE_MEHRGARH_ADJECTIVE",		"Mehgarh"	),
+	("pt_BR",	"LOC_CIVILIZATION_CSE_MEHRGARH_ADJECTIVE",		"de Mehgarh"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_MEHRGARH_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_MEHRGARH_NAME}"		),
 	("pt_BR",	"LOC_CSE_MEHRGARH_TRAIT_NAME",					"Bônus de Suzerano de {LOC_CIVILIZATION_CSE_MEHRGARH_NAME}"	),
 	("pt_BR",	"LOC_CSE_MEHRGARH_TRAIT_DESCRIPTION",			"Recebe +25% de recursos de colheita de recursos e remoção de florestas, florestas tropicais e pântanos."	),
@@ -914,15 +914,15 @@ VALUES
 	("pt_BR",	"LOC_LEADER_MINOR_CIV_CSE_MEHRGARH_NAME",		"{LOC_CIVILIZATION_CSE_MEHRGARH_NAME}"	),
 	("pt_BR",	"LOC_CITY_NAME_MEHRGARH",						"{LOC_CIVILIZATION_CSE_MEHRGARH_NAME}"	),
 
-	("pt_BR",	"LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_CSE_MEHRGARH_CHAPTER_HISTORY_PARA_1",	"Mehrgarh is a Neolithic settlement that lies on the Kacchi Plain of Balochistan, Pakistan. It is seen as a precursor to the Indus Valley civilization, displaying the whole sequence from earliest settlement and the start of agriculture, to the mature Harappan civilization."	),
-	("pt_BR",	"LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_CSE_MEHRGARH_CHAPTER_HISTORY_PARA_2",	"One of the earliest sites with evidence of farming and herding in South Asia, Mehrgarh was developed by semi-nomadic people that resided in mud brick houses, stored grain in granaries, and fashioned tools with local copper ore. "	),
+	("pt_BR",	"LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_CSE_MEHRGARH_CHAPTER_HISTORY_PARA_1",	"Mehrgarh é um assentamento neolítico que se encontra na planície Kacchi do Baluchistão, Paquistão. Ele é visto como um precursor da civilização do Vale do Indo, exibindo toda a sequência desde o início do assentamento e o início da agricultura até a madura civilização Harappan."	),
+	("pt_BR",	"LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_CSE_MEHRGARH_CHAPTER_HISTORY_PARA_2",	"Um dos primeiros locais com evidências de cultivo e pastoreio no sul da Ásia, o Mehrgarh foi desenvolvido por pessoas semi-nômades que residiam em casas de tijolos de barro, grãos armazenados em celeiros e ferramentas feitas com minério de cobre local. "	),
 
 -----------------------------------------------
 -- City-State | Mombasa
 -----------------------------------------------
 	
-	("pt_BR",	"LOC_CIVILIZATION_CSE_MOMBASA_NAME",			"Mombasa"	),
-	("pt_BR",	"LOC_CIVILIZATION_CSE_MOMBASA_ADJECTIVE",		"Mombasa"	),
+	("pt_BR",	"LOC_CIVILIZATION_CSE_MOMBASA_NAME",			"Mombaça"	),
+	("pt_BR",	"LOC_CIVILIZATION_CSE_MOMBASA_ADJECTIVE",		"Mombaçana"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_MOMBASA__DESCRIPTION",	"Cidade-Estado de {LOC_CIVILIZATION_CSE_MOMBASA_NAME}"		),
 	("pt_BR",	"LOC_CSE_MOMBASA_TRAIT_NAME",					"Bônus de Suzerano de {LOC_CIVILIZATION_CSE_MOMBASA_NAME}"	),
 	("pt_BR",	"LOC_CSE_MOMBASA_TRAIT_DESCRIPTION",			"Distritos Especializados recebem bonus de adjacência menor de painéis costeiros."	),
@@ -937,16 +937,16 @@ VALUES
 	("pt_BR",	"LOC_CSE_MOMBASA_FOOD",							"+{1_num} de [ICON_FOOD] Comida de painéis costeiros."	),
 	("pt_BR",	"LOC_CSE_MOMBASA_GOLD",							"+{1_num} de [ICON_GOLD] Ouro de painéis costeiros."	),
 
-	("pt_BR",	"LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_CSE_MOMBASA_CHAPTER_HISTORY_PARA_1",	"Mombasa is the second largest city of Kenya. It is a regional cultural and economic hub with a large port and international airport. Additionally, its location on the east coast of Kenya has made it a strategic trading port throughout its history. The exact age of Mombasa is unknown but it has a long history."	),
-	("pt_BR",	"LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_CSE_MOMBASA_CHAPTER_HISTORY_PARA_2",	"Mombasa’s founding is associated with the legendary figures Mwana Mkisi and Shehe Mvita. Most early information on the city come from Portuguese chroniclers writing in the 16th century. However, the Moroccan scholar and traveler Ibn Battuta also visited the area and wrote of it, but he only stayed for a single night. He noted their mosques were wooden and expertly built."	),
-	("pt_BR",	"LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_CSE_MOMBASA_CHAPTER_HISTORY_PARA_3",	"Mombasa was once an important center for the trade of spices, gold, and ivory, with trading links as far as India and China. Throughout the early modern period, Mombasa was again a key node in extensive transoceanic trading networks; key exports were ivory, millet, sesamum, and coconuts. Today, Mombasa is a key city within Kenya and has been featured in popular movies and videogames."	),
+	("pt_BR",	"LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_CSE_MOMBASA_CHAPTER_HISTORY_PARA_1",	"Mombaça é a segunda maior cidade do Quênia. É um centro cultural e econômico regional com um grande porto e aeroporto internacional. Além disso, a sua localização na costa leste do Quênia tornou um porto comercial estratégico ao longo de sua história. A idade exata de Mombaça é desconhecida, mas tem uma longa história."	),
+	("pt_BR",	"LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_CSE_MOMBASA_CHAPTER_HISTORY_PARA_2",	"A fundação de Mombaça está associada às figuras lendárias Mwana Mkisi e Shehe Mvita. A maioria das informações iniciais sobre a cidade vem de cronistas portugueses que escreveram no século XVI. No entanto, o estudioso e viajante marroquino Ibn Battuta também visitou a área e escreveu sobre ela, mas ele ficou apenas uma única noite. Ele notou que suas mesquitas eram de madeira e habilmente construídas."	),
+	("pt_BR",	"LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_CSE_MOMBASA_CHAPTER_HISTORY_PARA_3",	"Mombaça já foi um importante centro para o comércio de especiarias, ouro e marfim, com ligações comerciais até a Índia e a China. Durante todo o período moderno, Mombaça foi novamente um nó-chave em extensas redes comerciais transoceânicas; as principais exportações foram marfim, painço, gergelim e coco. Hoje, Mombaça é uma cidade chave no Quênia e tem sido destaque em filmes e videogames populares."	),
 
 -----------------------------------------------
 -- City-State | Monaco
 -----------------------------------------------
 	
-	("pt_BR",	"LOC_CIVILIZATION_CSE_MONACO_NAME",			"Monaco"	),
-	("pt_BR",	"LOC_CIVILIZATION_CSE_MONACO_ADJECTIVE",	"Monaco"	),
+	("pt_BR",	"LOC_CIVILIZATION_CSE_MONACO_NAME",			"Mónaco"	),
+	("pt_BR",	"LOC_CIVILIZATION_CSE_MONACO_ADJECTIVE",	"Monegascos"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_MONACO_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_MONACO_NAME}"		),
 	("pt_BR",	"LOC_CSE_MONACO_TRAIT_NAME",				"{LOC_CIVILIZATION_CSE_MONACO_NAME}"	),
 	("pt_BR",	"LOC_CSE_MONACO_TRAIT_DESCRIPTION",			"Edificações dos distritos Complexo de Entretenimento e Parque Aquático recebem +2 de [ICON_TOURISM] Turismo e [ICON_GOLD] Ouro suficiente para pagar a sua manutenção."	),
@@ -954,16 +954,16 @@ VALUES
 	("pt_BR",	"LOC_LEADER_MINOR_CIV_CSE_MONACO_NAME",		"{LOC_CIVILIZATION_CSE_MONACO_NAME}"	),
 	("pt_BR",	"LOC_CITY_NAME_MONACO",						"{LOC_CIVILIZATION_CSE_MONACO_NAME}"	),
 
-	("pt_BR",	"LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_CSE_MONACO_CHAPTER_HISTORY_PARA_1",	"Monaco is a city-state on the French Riviera. It is the second-smallest and most densely-populated sovereign state in the world. With luxurious tourist destinations, no income tax, and low business taxes, it is known as a playground for the rich, but Monaco has a long history."	),
-	("pt_BR",	"LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_CSE_MONACO_CHAPTER_HISTORY_PARA_2",	"Monaco’s name comes from a nearby Phocaean Greek colony from 6th century BCE called Monoikos. According to ancient myth, Hercules passed through the Monaco area and turned away the previous gods. Monaco eventually came under control of the Holy Roman Empire, the Republic of Genoa, France, and the kingdom of Sardinia, before achieving independence."	),
-	("pt_BR",	"LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_CSE_MONACO_CHAPTER_HISTORY_PARA_3",	"Prince Albert II is the head of state and reigns as a constitutional monarch, albeit with enormous political power. While Monaco is not a member of the European Union, in recent times, there have been steps towards integration. For instance, it participates in certain EU policies and its official currency is the Euro."	),
+	("pt_BR",	"LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_CSE_MONACO_CHAPTER_HISTORY_PARA_1",	"Mônaco é uma cidade-estado na Riviera Francesa. É o segundo estado soberano mais pequeno e densamente povoado do mundo. Com destinos turísticos de luxo, sem imposto de renda e impostos de negócios baixos, é conhecido como um playground para os ricos, mas Mônaco tem uma longa história."	),
+	("pt_BR",	"LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_CSE_MONACO_CHAPTER_HISTORY_PARA_2",	"O nome de Mônaco vem de uma colônia grega Phocaean nas proximidades do século 6 aC chamada Monoikos. Segundo o mito antigo, Hércules passou pela área de Mônaco e afastou os deuses anteriores. Mônaco finalmente ficou sob o controle do Sacro Império Romano, da República de Gênova, da França e do reino da Sardenha, antes de alcançar a independência."	),
+	("pt_BR",	"LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_CSE_MONACO_CHAPTER_HISTORY_PARA_3",	"O príncipe Alberto II é o chefe de Estado e reina como monarca constitucional, embora com enorme poder político. Embora Mónaco não seja membro da União Europeia, nos últimos tempos, houve passos no sentido da integração. Por exemplo, participa em certas políticas da UE e a sua moeda oficial é o euro."	),
 	
 -----------------------------------------------
 -- City-State | Mzizima
 -----------------------------------------------
 	
 	("pt_BR",	"LOC_CIVILIZATION_CSE_MZIZIMA_NAME",			"Mzizima"	),
-	("pt_BR",	"LOC_CIVILIZATION_CSE_MZIZIMA_ADJECTIVE",		"Mzizima"	),
+	("pt_BR",	"LOC_CIVILIZATION_CSE_MZIZIMA_ADJECTIVE",		"de Mzizima"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_MZIZIMA__DESCRIPTION",	"Cidade-Estado de {LOC_CIVILIZATION_CSE_MZIZIMA_NAME}"		),
 	("pt_BR",	"LOC_CSE_MZIZIMA_TRAIT_NAME",					"Bônus de Suzerano de {LOC_CIVILIZATION_CSE_MZIZIMA_NAME}"	),
 	("pt_BR",	"LOC_CSE_MZIZIMA_TRAIT_DESCRIPTION",			"Suas cidades com [ICON_GOVERNOR] Governador recebem +15% de Crescimento de [ICON_CITIZEN] População."	),
@@ -971,15 +971,15 @@ VALUES
 	("pt_BR",	"LOC_LEADER_MINOR_CIV_CSE_MZIZIMA_NAME",		"{LOC_CIVILIZATION_CSE_MZIZIMA_NAME}"	),
 	("pt_BR",	"LOC_CITY_NAME_MZIZIMA",						"{LOC_CIVILIZATION_CSE_MZIZIMA_NAME}"	),
 
-	("pt_BR",	"LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_CSE_MZIZIMA_CHAPTER_HISTORY_PARA_1",	"In the 19th century, Mzizima ('the healthy town' in Swahili) was a coastal fishing village on the periphery of Indian Ocean trade routes. In 1865, Sultan Majid bin Said of Zanzibar began building a new city very close to Mzizima, and named it Dar es Salaam. Commonly translated as 'house of peace', Dar es Salaam fell into decline until 1887 when it was revived by the establishment of a trade station by the German East Africa Company. The following growth was facilitated by its role as the administrative and commercial center of German East Africa and industrial expansion from the construction of railways in the early 1900's."	),
-	("pt_BR",	"LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_CSE_MZIZIMA_CHAPTER_HISTORY_PARA_2",	"After being captured by the British during World War I, Mzizima and it's neighbor Dar es Salaam became the sovereign state of Tanganyika., Political developments led to the state attaining independence from colonial rule in 1961, where the city continued to serve as its capital when Tanganyika and Zanzibar merged to form Tanzania in 1964. By 1967, the Tanzanian declared the Ujamaa policy, which set the country on a path to socialist reform."	),
+	("pt_BR",	"LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_CSE_MZIZIMA_CHAPTER_HISTORY_PARA_1",	"No século XIX, Mzizima (\"a cidade saudável\" em suaíli) era uma vila de pescadores costeira na periferia das rotas comerciais do Oceano Índico. Em 1865, o sultão Majid bin Said de Zanzibar começou a construir uma nova cidade muito perto de Mzizima e a denominou Dar es Salaam. Comumente traduzido como \"casa da paz\", Dar es Salaam entrou em declínio até 1887, quando foi revivido pelo estabelecimento de uma estação de comércio pela Companhia Alemã da África Oriental. O crescimento seguinte foi facilitado pelo seu papel como o centro administrativo e comercial da África Oriental Alemã e pela expansão industrial da construção de ferrovias no início dos anos 1900."	),
+	("pt_BR",	"LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_CSE_MZIZIMA_CHAPTER_HISTORY_PARA_2",	"Depois de ser capturado pelos britânicos durante a Primeira Guerra Mundial, Mzizima e seu vizinho Dar es Salaam tornaram-se o estado soberano de Tanganica. Os acontecimentos políticos levaram o Estado a alcançar a independência do domínio colonial em 1961, onde a cidade continuou a servir como capital. Tanganica e Zanzibar se fundiram para formar a Tanzânia em 1964. Em 1967, o tanzaniano declarou a política Ujamaa, que colocou o país no caminho da reforma socialista."	),
 
 -----------------------------------------------
 -- City-State | Nalanda
 -----------------------------------------------
 	
 	("pt_BR",	"LOC_CIVILIZATION_CSE_NALANDA_NAME",			"Nalanda"	),
-	("pt_BR",	"LOC_CIVILIZATION_CSE_NALANDA_ADJECTIVE",		"Nalanda"	),
+	("pt_BR",	"LOC_CIVILIZATION_CSE_NALANDA_ADJECTIVE",		"Nalandense"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_NALANDA__DESCRIPTION",	"Cidade-Estado de {LOC_CIVILIZATION_CSE_NALANDA_NAME}"		),
 	("pt_BR",	"LOC_CSE_NALANDA_TRAIT_NAME",					"Bônus de Suzerano de {LOC_CIVILIZATION_CSE_NALANDA_NAME}"	),
 	("pt_BR",	"LOC_CSE_NALANDA_TRAIT_DESCRIPTION",			"Cidades Felizes recebem +5% de [ICON_FAITH] Fé se tiverem um Campus, e +5% de [ICON_SCIENCE] Ciência se tiverem um Lugar Sagrado. Cada um destes bobus aumenta para +10% em cidades em Êxtase."	),
@@ -987,16 +987,16 @@ VALUES
 	("pt_BR",	"LOC_LEADER_MINOR_CIV_CSE_NALANDA_NAME",		"{LOC_CIVILIZATION_CSE_NALANDA_NAME}"	),
 	("pt_BR",	"LOC_CITY_NAME_NALANDA",						"{LOC_CIVILIZATION_CSE_NALANDA_NAME}"	),
 
-	("pt_BR",	"LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_CSE_NALANDA_CHAPTER_HISTORY_PARA_1",	"Nalanda was an ancient and acclaimed Buddhist monastery. It is located about 95 kilometers southeast of Patna. From the fifth century CE to 1200 CE, Nalanda was a renowned international center of learning. Much of the knowledge of Nalanda comes from writings of pilgrim monks such as Xuanzang and Yijing."	),
-	("pt_BR",	"LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_CSE_NALANDA_CHAPTER_HISTORY_PARA_2",	"Nalanda featured highly formalized methods of Vedic learning. It flourished under the patronage of the Gupta Empire and later under Harsha, emperor of Kannauj. The liberal cultural traditions inherited from the Gupta age resulted in a period of growth and prosperity until the ninth century. The subsequent centuries were a time of gradual decline, a period during which the tantric developments of Buddhism became most pronounced in eastern India under the Pala Empire."	),
-	("pt_BR",	"LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_CSE_NALANDA_CHAPTER_HISTORY_PARA_3",	"At its peak, the school attracted scholars and students from near and far with some travelling all the way from Tibet, China, Korea, and Central Asia. Archaeological evidence also notes contact with the Shailendra dynasty of Indonesia, one of whose kings built a monastery in the complex. Nalanda was ransacked and destroyed by an army of the Mamluk Dynasty of the Delhi Sultanate under Bakhtiyar Khilji in c.?1200 CE. While some sources note that the Mahavihara continued to function in a makeshift fashion for a while longer, it was eventually abandoned and forgotten until the 19th century when the site was surveyed and preliminary excavations were conducted by the Archaeological Survey of India."	),
+	("pt_BR",	"LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_CSE_NALANDA_CHAPTER_HISTORY_PARA_1",	"Nalanda era um antigo e aclamado mosteiro budista. Está localizado a cerca de 95 km a sudeste de Patna. Do quinto século EC até 1200 EC, Nalanda era um renomado centro internacional de aprendizado. Grande parte do conhecimento de Nalanda vem de escritos de monges peregrinos como Xuanzang e Yijing."	),
+	("pt_BR",	"LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_CSE_NALANDA_CHAPTER_HISTORY_PARA_2",	"Nalanda apresentava métodos altamente formalizados de aprendizado védico. Floresceu sob o patrocínio do Império Gupta e depois sob Harsha, imperador de Kannauj. As tradições culturais liberais herdadas da era Gupta resultaram em um período de crescimento e prosperidade até o século IX. Os séculos subsequentes foram uma época de declínio gradual, período durante o qual os desenvolvimentos tântricos do budismo se tornaram mais pronunciados no leste da Índia sob o Império de Pala."	),
+	("pt_BR",	"LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_CSE_NALANDA_CHAPTER_HISTORY_PARA_3",	"No seu auge, a escola atraiu acadêmicos e estudantes de perto e de longe, com alguns viajando pelo Tibete, China, Coréia e Ásia Central. A evidência arqueológica também observa o contato com a dinastia Shailendra da Indonésia, um dos reis de quem construiu um mosteiro no complexo. Nalanda foi saqueada e destruída por um exército da dinastia mameluca do sultanato de Delhi, sob Bakhtiyar Khilji, em c.1200 EC. Enquanto algumas fontes notam que o Mahavihara continuou a funcionar de forma improvisada por mais algum tempo, acabou sendo abandonado e esquecido até o século 19, quando o local foi pesquisado e as escavações preliminares foram conduzidas pelo Serviço Arqueológico da Índia."	),
 
 -----------------------------------------------
 -- City-State | Nassau
 -----------------------------------------------
 	
 	("pt_BR",	"LOC_CIVILIZATION_CSE_NASSAU_NAME",				"Nassau"	),
-	("pt_BR",	"LOC_CIVILIZATION_CSE_NASSAU_ADJECTIVE",		"Nassau"	),
+	("pt_BR",	"LOC_CIVILIZATION_CSE_NASSAU_ADJECTIVE",		"de Nassau"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_NASSAU__DESCRIPTION",	"Cidade-Estado de {LOC_CIVILIZATION_CSE_NASSAU_NAME}"		),
 	("pt_BR",	"LOC_CSE_NASSAU_TRAIT_NAME",					"Bônus de Suzerano de {LOC_CIVILIZATION_CSE_NASSAU_NAME}"	),
 	("pt_BR",	"LOC_CSE_NASSAU_TRAIT_DESCRIPTION",				"Saques de [ICON_TRADEROUTE] Rotas Comerciais marítmas são dobrados."	),
@@ -1004,9 +1004,9 @@ VALUES
 	("pt_BR",	"LOC_LEADER_MINOR_CIV_CSE_NASSAU_NAME",			"{LOC_CIVILIZATION_CSE_NASSAU_NAME}"	),
 	("pt_BR",	"LOC_CITY_NAME_NASSAU",							"{LOC_CIVILIZATION_CSE_NASSAU_NAME}"	),
 
-	("pt_BR",	"LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_CSE_NASSAU_CHAPTER_HISTORY_PARA_1",	"Nassau is the capital and commercial centre of the Commonwealth of the Bahamas and was considered historically to be a stronghold of pirates. The city was named in honour of William III of England, Prince of Orange-Nassau, deriving its name from Nassau, Germany."	),
-	("pt_BR",	"LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_CSE_NASSAU_CHAPTER_HISTORY_PARA_2",	"An era of piracy in the Bahamas began in 1696, when a loose confederacy of privateers stationed in Nassau on New Providence island raised the black and began to threaten maritime trade in the region. The laws of civilized nations declared them 'hostis humani generis' - enemies of mankind. In response, the pirates adopted their own code of conduct, adhering to a doctrine of their own - war against the world."	),
-	("pt_BR",	"LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_CSE_NASSAU_CHAPTER_HISTORY_PARA_3",	"The activities of the pirates caused havoc with trade and shipping through the West Indies, leading to an outcry for their destruction. In 1718, King George I appointed Woodes Rogers as governor of the bahamas, who restored British control and brought piracy to an end in Nassau. However, the pirates who had successfully evaded capture continue their piratical activites elsewhere in the Caribbean in what became known as the Golden Age of Piracy."	),
+	("pt_BR",	"LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_CSE_NASSAU_CHAPTER_HISTORY_PARA_1",	"Nassau é a capital e centro comercial da Comunidade das Bahamas e foi considerada historicamente como um reduto de piratas. A cidade foi nomeada em homenagem a Guilherme III da Inglaterra, Príncipe de Orange-Nassau, originário de Nassau, na Alemanha."	),
+	("pt_BR",	"LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_CSE_NASSAU_CHAPTER_HISTORY_PARA_2",	"Uma era de pirataria nas Bahamas começou em 1696, quando uma confederação de corsários soltos estacionados em Nassau, na ilha de New Providence, levantou a bandeira negra e começou a ameaçar o comércio marítimo na região. As leis das nações civilizadas os declararam 'hostis humani generis' - inimigos da humanidade. Em resposta, os piratas adotaram seu próprio código de conduta, aderindo a uma doutrina própria - a guerra contra o mundo."	),
+	("pt_BR",	"LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_CSE_NASSAU_CHAPTER_HISTORY_PARA_3",	"As atividades dos piratas causaram estragos no comércio e navegação através das Índias Ocidentais, levando a protestos por sua destruição. Em 1718, o rei George I nomeou Woodes Rogers como governador das Bahamas, que restaurou o controle britânico e pôs fim à pirataria em Nassau. No entanto, os piratas que haviam evitado a captura continuam suas atividades piratas em outras partes do Caribe, no que ficou conhecido como a Era de Ouro da Pirataria."	),
 
 -----------------------------------------------
 -- City-State | Palmyra
@@ -1021,16 +1021,16 @@ VALUES
 	("pt_BR",	"LOC_LEADER_MINOR_CIV_CSE_PALMYRA_NAME",		"{LOC_CIVILIZATION_CSE_PALMYRA_NAME}"	),
 	("pt_BR",	"LOC_CITY_NAME_PALMYRA",						"{LOC_CIVILIZATION_CSE_PALMYRA_NAME}"	),
 
-	("pt_BR",	"LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_CSE_PALMYRA_CHAPTER_HISTORY_PARA_1",	"The ancient city of Palmyra grew wealthy from trade caravans. It changed hands numerous times before coming under control of Rome in the first century CE. Palmyrenes were renowned merchants who established colonies along the Silk Road and operated throughout the Roman Empire. The city’s enormous wealth allowed for myriad monumental projects, like tower tombs, the Great Colonnade, and the Temple of Bel."	),
-	("pt_BR",	"LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_CSE_PALMYRA_CHAPTER_HISTORY_PARA_2",	"As a city at the crossroads of the Near East and the Mediterranean, Palmyra was extraordinarily diverse. The people spoke Palmyrene (an Aramaic dilacet), as well as Greek for commercial and diplomatic purposes. Palmyran culture was strongly influenced by Greco-Roman culture. Citizens worshipped local Semitic deities, as well as Mesoptamian and Arab gods. Palmyra also had its own unique deities."	),
-	("pt_BR",	"LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_CSE_PALMYRA_CHAPTER_HISTORY_PARA_3",	"By the third century CE, Palmyra was a prosperous and powerful city, even defeating the Sassanids under Shapur I. Regent Queen Zenobia rebelled against Rome and established the Palmyrene Empire, but in 278, the Roman Emperor Aurelian destroyed the city. It was restored, at a reduced size, by Diocletian."	),
+	("pt_BR",	"LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_CSE_PALMYRA_CHAPTER_HISTORY_PARA_1",	"A antiga cidade de Palmyra tornou-se rica em caravanas de comércio. Mudou de mãos várias vezes antes de assumir o controle de Roma no primeiro século aC. Palmyrenes eram renomados comerciantes que estabeleceram colônias ao longo da Rota da Seda e operaram em todo o Império Romano. A enorme riqueza da cidade permitia inúmeros projetos monumentais, como tumbas de torres, a Grande Colunata e o Templo de Bel."	),
+	("pt_BR",	"LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_CSE_PALMYRA_CHAPTER_HISTORY_PARA_2",	"Como uma cidade na encruzilhada do Oriente Próximo e do Mediterrâneo, Palmyra era extraordinariamente diversa. O povo falava palmyrene (um dialeto aramaico), assim como o grego para fins comerciais e diplomáticos. A cultura de Palmyra foi fortemente influenciada pela cultura greco-romana. Cidadãos adoravam divindades semíticas locais, assim como deuses mesopitâmicos e árabes. Palmyra também tinha suas próprias divindades únicas."	),
+	("pt_BR",	"LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_CSE_PALMYRA_CHAPTER_HISTORY_PARA_3",	"No terceiro século aC, Palmyra era uma cidade próspera e poderosa, derrotando até mesmo os sassânidas de Shapur I. A rainha regente Zenobia rebelou-se contra Roma e estabeleceu o Império Palmyrene, mas em 278 o imperador romano Aureliano destruiu a cidade. Foi restaurada, em tamanho reduzido, por Diocleciano."	),
 
 -----------------------------------------------
 -- City-State | Phasis
 -----------------------------------------------
 	
-	("pt_BR",	"LOC_CIVILIZATION_CSE_PHASIS_NAME",			"Phasis"	),
-	("pt_BR",	"LOC_CIVILIZATION_CSE_PHASIS_ADJECTIVE",	"Phasian"	),
+	("pt_BR",	"LOC_CIVILIZATION_CSE_PHASIS_NAME",			"Fásis"	),
+	("pt_BR",	"LOC_CIVILIZATION_CSE_PHASIS_ADJECTIVE",	"Fásiano"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_PHASIS_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_PHASIS_NAME}"		),
 	("pt_BR",	"LOC_CSE_PHASIS_TRAIT_NAME",				"{LOC_CIVILIZATION_CSE_PHASIS_NAME}"	),
 	("pt_BR",	"LOC_CSE_PHASIS_TRAIT_DESCRIPTION",			"Painéis de floresta recebem +1 de [ICON_PRODUCTION] Produção se estiverem adjacentes a pelo menos 2 outros painéis de florestas. Serrarias recebem +2 de [ICON_GOLD] Ouro quando adjacente a um rio."	),
@@ -1038,9 +1038,9 @@ VALUES
 	("pt_BR",	"LOC_LEADER_MINOR_CIV_CSE_PHASIS_NAME",		"{LOC_CIVILIZATION_CSE_PHASIS_NAME}"	),
 	("pt_BR",	"LOC_CITY_NAME_PHASIS",						"{LOC_CIVILIZATION_CSE_PHASIS_NAME}"	),
 
-	("pt_BR",	"LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_CSE_PHASIS_CHAPTER_HISTORY_PARA_1",	"Phasis, which took its name from the Phasis River, was the easternmost town on the cost of the Euxine. It was probably founded by the Milesians as a commercial post, situated in a plain between the river, the sea, and a lake. The country around it was very fertile and rich in timber. Therefore, the Phasians were able to carry on considerable export commerce. It was a vital component of the presumed trade route from India to the Black Sea, attested by Strabo and Pliny."	),
-	("pt_BR",	"LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_CSE_PHASIS_CHAPTER_HISTORY_PARA_2",	"During the Third Mithridatic War, Phasis came under Roman control. It was where the Roman commander-in-chief Pompey, having crossed into Colchis from Iberia, met the legate Servilius, the admiral of his Euxine fleet in 65 BC. During the Lazic War between the Sassanians and the Eastern Roman empire, Phasis was besieged but not taken by the Sassanians. After the introduction of Christianity, Phasis was the see of a Greek diocese."	),
-	("pt_BR",	"LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_CSE_PHASIS_CHAPTER_HISTORY_PARA_3",	"The exact location of Phasis has not been identified. Some historians believe the lake that bound Phasis on one side has now engulfed the settlement, or part of it. The name of the town and river Phasis still survives in the languages of Europe in the wood pheasants (phasianae aves), these birds being said to have been introduced into Europe from those regions as early as the time of the Argonauts."	),
+	("pt_BR",	"LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_CSE_PHASIS_CHAPTER_HISTORY_PARA_1",	"Fásis, que recebeu o nome do rio Fásis, era a cidade mais a leste da costa de Euxine. Provavelmente foi fundado pelos Milesianos como um posto comercial, situado em uma planície entre o rio, o mar e um lago. O país ao redor era muito fértil e rico em madeira. Portanto, os Fásiano puderam continuar com considerável comércio de exportação. Foi um componente vital da suposta rota comercial da Índia para o Mar Negro, atestada por Strabo e Plínio."	),
+	("pt_BR",	"LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_CSE_PHASIS_CHAPTER_HISTORY_PARA_2",	"Durante a Terceira Guerra Mithridática, Fásis ficou sob controle romano. Foi lá que o comandante-chefe romano Pompeu, tendo cruzado para a Cólquida desde a Ibéria, encontrou o legado Servilius, o almirante de sua frota de Euxine em 65 aC. Durante a Guerra Lazica entre os Sassanians e o Império Romano do Oriente, Fásis foi sitiada mas não tomada pelos Sassanianos. Após a introdução do cristianismo, Fásis foi a sede de uma diocese grega."	),
+	("pt_BR",	"LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_CSE_PHASIS_CHAPTER_HISTORY_PARA_3",	"A localização exata de Fásis não foi identificada. Alguns historiadores acreditam que o lago que ligava a Fásis de um lado já engoliu o assentamento, ou parte dele. O nome da cidade e do rio Fásis ainda sobrevive nas línguas da Europa nos faisões da madeira (phasianae aves), dizendo-se que essas aves foram introduzidas na Europa a partir dessas regiões já no tempo dos Argonautas."	),
 
 -----------------------------------------------
 -- City-State | Port Royal
@@ -1055,9 +1055,9 @@ VALUES
 	("pt_BR",	"LOC_LEADER_MINOR_CIV_CSE_PORT_ROYAL_NAME",			"{LOC_CIVILIZATION_CSE_PORT_ROYAL_NAME}"	),
 	("pt_BR",	"LOC_CITY_NAME_PORT_ROYAL",							"{LOC_CIVILIZATION_CSE_PORT_ROYAL_NAME}"	),
 
-	("pt_BR",	"LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_CSE_PORT_ROYAL_CHAPTER_HISTORY_PARA_1",	"Port Royal, once the largest city in the Caribbean, was founded by the Spanish in 1518 in southeastern Jamaica. It was the center of shipping and commerce in the Caribbean Sea by the second half of the 17th century. In 1692, an earthquake and accompanying tsunami leveled the city. It has been damaged many times by severe hurricanes."	),
-	("pt_BR",	"LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_CSE_PORT_ROYAL_CHAPTER_HISTORY_PARA_2",	"Port Royal was home to privateers, encouraged to attack Spain’s vessels when smaller European powers dared not directly provoke Spain. The city was notorious for gaudy displays of wealth and loose morals, and English and Dutch-sponsored privateers spent their treasure and leisure time in Port Royal. In the later part of the 16th century, the English and Dutch governments ceased providing letters of marque to privateers against Spain’s treasure fleets and possessions; consequently many crews turned pirate. Pirates around the world congregated at Port Royal, using the city as their main base."	),
-	("pt_BR",	"LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_CSE_PORT_ROYAL_CHAPTER_HISTORY_PARA_3",	"After the disaster in 1692, Port Royal’s commercial role was superseded by nearby Kingston. Some attempts were made to rebuild the city, with mixed results. The rebuilt city has been destroyed many times over, by fires, hurricanes, and earthquakes. Today, Port Royal is a shadow of its former self, with no commercial or political importance, and a population of less than 2,000."	),
+	("pt_BR",	"LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_CSE_PORT_ROYAL_CHAPTER_HISTORY_PARA_1",	"Port Royal, outrora a maior cidade do Caribe, foi fundada pelos espanhóis em 1518 no sudeste da Jamaica. Foi o centro de navegação e comércio no Mar do Caribe na segunda metade do século XVII. Em 1692, um terremoto e um tsunami acompanhados destruíram a cidade. Fora danificado muitas vezes por furacões severos."	),
+	("pt_BR",	"LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_CSE_PORT_ROYAL_CHAPTER_HISTORY_PARA_2",	"Port Royal era o lar de corsários, encorajados a atacar as embarcações da Espanha quando potências europeias menores não ousavam provocá-la diretamente. A cidade era famosa por exibições espalhafatosas de riquezas e moral fraca, e corsários ingleses e holandeses patrocinados gastavam seu tesouro e tempo de lazer em Port Royal. Na parte posterior do século XVI, os governos inglês e holandês deixaram de fornecer cartas de marca aos corsários contra as frotas e posses do tesouro da Espanha; Consequentemente, muitas equipes tornaram-se piratas. Piratas ao redor do mundo reuniram-se em Port Royal, usando a cidade como sua base principal."	),
+	("pt_BR",	"LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_CSE_PORT_ROYAL_CHAPTER_HISTORY_PARA_3",	"Após o desastre em 1692, o papel comercial de Port Royal foi substituído pela cidade de Kingston. Algumas tentativas foram feitas para reconstruir a cidade, com resultados mistos. A cidade reconstruída foi destruída muitas vezes por incêndios, furacões e terremotos. Hoje, Port Royal é uma sombra do seu antigo forma, sem importância comercial ou política, e uma população de menos de 2.000."	),
 
 -----------------------------------------------
 -- City-State | Qatna
