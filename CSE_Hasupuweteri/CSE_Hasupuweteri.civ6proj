@@ -31,6 +31,9 @@
     <None Include="CSE_Hasupuweteri.xml" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\IMP_Maloca.ast">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Core\City-States\XP1\CSE_Hasupuweteri.sql">
       <SubType>Content</SubType>
     </Content>
@@ -49,8 +52,15 @@
     <Content Include="Core\Localisation\CSE_Localisation_PT_BR.sql">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="referencias.txt">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Maloca.Art.xml">
+      <SubType>Content</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Assets\" />
     <Folder Include="Core" />
     <Folder Include="Core\City-States" />
     <Folder Include="Core\City-States\XP1" />
