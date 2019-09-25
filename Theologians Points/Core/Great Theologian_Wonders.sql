@@ -1,56 +1,11 @@
--- GameData1
+-- Great Theologian_Wonders
 -- Author: lorna
--- DateCreated: 8/10/2019 11:48:31 PM
+-- DateCreated: 9/22/2019 9:11:51 PM
 --------------------------------------------------------------
 
 ----------------------------------------------------------------------------------------------------------------------------
---	Removing Theologian Points from the Shrine
-----------------------------------------------------------------------------------------------------------------------------
-DELETE FROM Building_GreatPersonPoints
-WHERE	BuildingType = 'BUILDING_SHRINE' AND GreatPersonClassType = 'GREAT_PERSON_CLASS_JFD_THEOLOGIAN';
-
-----------------------------------------------------------------------------------------------------------------------------
---	Adding Theologian Points for worship buildings and the Madrasa
-----------------------------------------------------------------------------------------------------------------------------
-INSERT OR REPLACE INTO Building_GreatPersonPoints
-		(BuildingType,					GreatPersonClassType,					PointsPerTurn	)
-VALUES	('BUILDING_CATHEDRAL',			'GREAT_PERSON_CLASS_JFD_THEOLOGIAN',	1				),
-		('BUILDING_DAR_E_MEHR',			'GREAT_PERSON_CLASS_JFD_THEOLOGIAN',	1				),
-		('BUILDING_GURDWARA',			'GREAT_PERSON_CLASS_JFD_THEOLOGIAN',	1				),
-		('BUILDING_MEETING_HOUSE',		'GREAT_PERSON_CLASS_JFD_THEOLOGIAN',	1				),
-		('BUILDING_MOSQUE',				'GREAT_PERSON_CLASS_JFD_THEOLOGIAN',	1				),
-		('BUILDING_PAGODA',				'GREAT_PERSON_CLASS_JFD_THEOLOGIAN',	1				),
-		('BUILDING_SYNAGOGUE',			'GREAT_PERSON_CLASS_JFD_THEOLOGIAN',	1				),
-		('BUILDING_STUPA',				'GREAT_PERSON_CLASS_JFD_THEOLOGIAN',	1				),
-		('BUILDING_WAT',				'GREAT_PERSON_CLASS_JFD_THEOLOGIAN',	1				),
-		('BUILDING_MADRASA',			'GREAT_PERSON_CLASS_JFD_THEOLOGIAN',	2				);
-		
-----------------------------------------------------------------------------------------------------------------------------
--- Creating a trigger to add Theologian Points for modded worship buildings
--- The Inner select tracks down if that Modifier ID is one from a worship building belief. 
--- If it is, adds the GT point to the building with the value of the Modifier (which should contain its name).
-----------------------------------------------------------------------------------------------------------------------------
-
-CREATE TRIGGER IF NOT EXISTS t_Theologians_WorshipBuilding
-AFTER INSERT ON ModifierArguments WHEN New.ModifierId IN 
-	(
-		SELECT mda.ModifierId
-		FROM 
-			ModifierArguments mda 
-			JOIN BeliefModifiers blm ON mda.ModifierId = blm.ModifierID
-			JOIN Beliefs blf ON blm.BeliefType = blf.BeliefType
-		WHERE blf.BeliefClassType = 'BELIEF_CLASS_WORSHIP'
-	)
-BEGIN
-
-	INSERT INTO Building_GreatPersonPoints
-			(BuildingType,		GreatPersonClassType,					PointsPerTurn	)
-	VALUES	(NEW.Value,			'GREAT_PERSON_CLASS_JFD_THEOLOGIAN',	1				);
-
-END;
-
-----------------------------------------------------------------------------------------------------------------------------
---	Adding Theologian Points for World Wonders.
+--	Adding Theologian Points for World Wonders and Theologian support for the Oracle.
+-- Modifiers, ModifierArguments, BuildingModifiers, Building_GreatPersonPoints
 ----------------------------------------------------------------------------------------------------------------------------
 -- Oracle
 INSERT INTO Modifiers 

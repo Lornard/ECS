@@ -4,7 +4,8 @@
 --------------------------------------------------------------
 
 ----------------------------------------------------------------------------------------------------------------------------
---	Register black functions for JFD calls, so it doesn't change with points whatsoever, since it's not need anymore.
+--	Register blank functions for JFD calls, so it doesn't change with points whatsoever, 
+-- since it'll be drawn for it's own points.
 ----------------------------------------------------------------------------------------------------------------------------
 
 function JFD_GreatTheologians_PlayerTurnStarted(playerID)
