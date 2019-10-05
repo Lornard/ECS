@@ -10,7 +10,7 @@ VALUES
 -- Agrarian
 -----------------------------------------------
 
-	("pt_BR",	"LOC_CSE_AGRICULTURAL_TRAIT_LARGEST_INFLUENCE_BONUS",	"+2 de [ICON_FOOD] Comida em cada Mercadão ou Shopping."	),
+	("pt_BR",	"LOC_CSE_AGRICULTURAL_TRAIT_LARGEST_INFLUENCE_BONUS",	"+2 de [ICON_FOOD] Alimento em cada Mercadão ou Shopping."	),
 
 -----------------------------------------------
 -- Consular
@@ -42,5 +42,5 @@ VALUES
 -- Mekkong - Agrarian
 -----------------------------------------------
 
-	("pt_BR",	"LOC_CSE_AGRICULTURAL_TRAIT_LARGEST_INFLUENCE_MEKONG_BONUS",	"+3 de [ICON_FOOD] Comida em cada Mercadão ou Shopping."	);
+	("pt_BR",	"LOC_CSE_AGRICULTURAL_TRAIT_LARGEST_INFLUENCE_MEKONG_BONUS",	"+3 de [ICON_FOOD] Alimento em cada Mercadão ou Shopping."	);
 	
