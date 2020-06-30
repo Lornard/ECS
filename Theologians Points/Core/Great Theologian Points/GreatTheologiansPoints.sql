@@ -46,27 +46,18 @@ WHERE Name = 'FAITH_PER_UNUSED_GREAT_PERSON_POINT';
 
 
 ----------------------------------------------------------------------------------------------------------------------------
---	Adding Great Theologian Pointss(GTP) in the Holy Site district and some of its buildings, as it's a separete yield now.
+--	Adding Great Theologian Pointss(GTP) in the the buildings of the Holy Site, as it's a separete yield now.
 --	Also, adds some points to the Madrasa (Arabia's UI), as thematically fits as Religion Scholars.
 -- District_GreatPersonPoints, Building_GreatPersonPoints
+-- Update: Moved the GTP from the Holy Site to a second point in the worship building.
 ----------------------------------------------------------------------------------------------------------------------------
---- Holy Sites
-INSERT OR REPLACE INTO District_GreatPersonPoints
-		(DistrictType,			GreatPersonClassType,					PointsPerTurn)
-VALUES	('DISTRICT_HOLY_SITE',	'GREAT_PERSON_CLASS_JFD_THEOLOGIAN',	1);
-
---- Unique Holy Sites
-INSERT OR REPLACE INTO District_GreatPersonPoints
-			(DistrictType,				GreatPersonClassType,					PointsPerTurn)
-	SELECT	CivUniqueDistrictType,		'GREAT_PERSON_CLASS_JFD_THEOLOGIAN',	1 
-		FROM DistrictReplaces WHERE ReplacesDistrictType = 'DISTRICT_HOLY_SITE';
 
 --- Temples and Madrasa
 INSERT OR REPLACE INTO Building_GreatPersonPoints
 		(BuildingType,					GreatPersonClassType,					PointsPerTurn	)
 VALUES	('BUILDING_TEMPLE',				'GREAT_PERSON_CLASS_JFD_THEOLOGIAN',	1				),
 	-- Also adding some Theologian Points to the Madrasa
-		('BUILDING_MADRASA',			'GREAT_PERSON_CLASS_JFD_THEOLOGIAN',	2				);
+		('BUILDING_MADRASA',			'GREAT_PERSON_CLASS_JFD_THEOLOGIAN',	1				);
 
 -- Unique Temples
 INSERT OR REPLACE INTO Building_GreatPersonPoints
@@ -77,7 +68,7 @@ INSERT OR REPLACE INTO Building_GreatPersonPoints
 -- Worship Buildings
 INSERT OR REPLACE INTO Building_GreatPersonPoints
 			(BuildingType,		GreatPersonClassType,					PointsPerTurn	)
-	SELECT	mda.Value,			'GREAT_PERSON_CLASS_JFD_THEOLOGIAN',	1
+	SELECT	mda.Value,			'GREAT_PERSON_CLASS_JFD_THEOLOGIAN',	2
 		FROM 
 			ModifierArguments mda 
 			JOIN BeliefModifiers blm ON mda.ModifierId = blm.ModifierID
@@ -85,32 +76,13 @@ INSERT OR REPLACE INTO Building_GreatPersonPoints
 		WHERE blf.BeliefClassType = 'BELIEF_CLASS_WORSHIP';
 
 
---		('BUILDING_CATHEDRAL',			'GREAT_PERSON_CLASS_JFD_THEOLOGIAN',	1				),
---		('BUILDING_DAR_E_MEHR',			'GREAT_PERSON_CLASS_JFD_THEOLOGIAN',	1				),
---		('BUILDING_GURDWARA',			'GREAT_PERSON_CLASS_JFD_THEOLOGIAN',	1				),
---		('BUILDING_MEETING_HOUSE',		'GREAT_PERSON_CLASS_JFD_THEOLOGIAN',	1				),
---		('BUILDING_MOSQUE',				'GREAT_PERSON_CLASS_JFD_THEOLOGIAN',	1				),
---		('BUILDING_PAGODA',				'GREAT_PERSON_CLASS_JFD_THEOLOGIAN',	1				),
---		('BUILDING_SYNAGOGUE',			'GREAT_PERSON_CLASS_JFD_THEOLOGIAN',	1				),
---		('BUILDING_STUPA',				'GREAT_PERSON_CLASS_JFD_THEOLOGIAN',	1				),
---		('BUILDING_WAT',				'GREAT_PERSON_CLASS_JFD_THEOLOGIAN',	1				),
-		
 ----------------------------------------------------------------------------------------------------------------------------
---  Creating a trigger to add Theologian Points for modded Holy_Site Districts and buildings, including worship buildings
+--  Creating a trigger to add Theologian Points for modded buildings, including worship buildings
 --  The Inner select tracks down if that Modifier ID is one from a worship building belief. 
 --  If it is, adds the GT point to the building with the value of the Modifier (which should contain its name).
 -- Building_GreatPersonPoints
+-- Update: Moved the GTP from the Holy Site to a second point in the worship building.
 ----------------------------------------------------------------------------------------------------------------------------
-
-CREATE TRIGGER IF NOT EXISTS t_Theologian_Holy_Site
-AFTER INSERT ON DistrictReplaces WHEN New.ReplacesDistrictType = 'DISTRICT_HOLY_SITE'
-BEGIN
-
-	INSERT INTO District_GreatPersonPoints
-			(DistrictType,					GreatPersonClassType,					PointsPerTurn)
-	VALUES	(New.CivUniqueDistrictType,		'GREAT_PERSON_CLASS_JFD_THEOLOGIAN',	1);
-
-END;
 
 CREATE TRIGGER IF NOT EXISTS t_Theologian_Temple
 AFTER INSERT ON BuildingReplaces WHEN New.ReplacesBuildingType = 'BUILDING_TEMPLE'
@@ -136,6 +108,46 @@ BEGIN
 
 	INSERT INTO Building_GreatPersonPoints
 			(BuildingType,		GreatPersonClassType,					PointsPerTurn	)
-	VALUES	(NEW.Value,			'GREAT_PERSON_CLASS_JFD_THEOLOGIAN',	1				);
+	VALUES	(NEW.Value,			'GREAT_PERSON_CLASS_JFD_THEOLOGIAN',	2				);
 
 END;
+
+----------------------------------------------------------------------------------------------------------------------------
+--  Creates a validation if JFD's Cultural Policy Slots exists. If it doesn't, it'll give a Governor promotion instead.
+----------------------------------------------------------------------------------------------------------------------------
+DELETE FROM ModifierArguments
+WHERE	ModifierId = 'GREATPERSON_JFD_XIONG_SHILI_CULTURAL_SLOT'
+		AND NOT EXISTS (SELECT 1 FROM GovernmentSlots WHERE GovernmentSlotType = 'SLOT_JFD_CULTURAL');
+
+DELETE FROM Modifiers
+WHERE	ModifierId = 'GREATPERSON_JFD_XIONG_SHILI_CULTURAL_SLOT'
+		AND NOT EXISTS (SELECT 1 FROM GovernmentSlots WHERE GovernmentSlotType = 'SLOT_JFD_CULTURAL');
+
+DELETE FROM GreatPersonIndividualActionModifiers
+WHERE	GreatPersonIndividualType = 'GREAT_PERSON_INDIVIDUAL_JFD_XIONG_SHILI'
+		AND NOT EXISTS (SELECT 1 FROM GovernmentSlots WHERE GovernmentSlotType = 'SLOT_JFD_CULTURAL');
+
+INSERT OR REPLACE INTO GreatPersonIndividualActionModifiers
+			(GreatPersonIndividualType, 					ModifierId, 								AttachmentTargetType)
+	SELECT DISTINCT	
+			'GREAT_PERSON_INDIVIDUAL_JFD_XIONG_SHILI',	    'GREATPERSON_GOVERNOR_POINTS',				'GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE'
+	FROM GovernmentSlots WHERE NOT EXISTS (SELECT 1 FROM GovernmentSlots WHERE GovernmentSlotType = 'SLOT_JFD_CULTURAL');
+	
+INSERT OR REPLACE INTO GreatPersonIndividualActionModifiers
+		(GreatPersonIndividualType, 					ModifierId, 						AttachmentTargetType)
+VALUES	('GREAT_PERSON_INDIVIDUAL_JFD_XIONG_SHILI',		'GREATPERSON_ATOMICCIVICBOOST',		'GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE');
+
+UPDATE	GreatPersonIndividuals
+SET		ActionEffectTextOverride='LOC_GREAT_PERSON_JFD_XIONG_SHILI_ALT_HELP'
+WHERE	GreatPersonIndividualType='GREAT_PERSON_INDIVIDUAL_JFD_XIONG_SHILI' AND NOT EXISTS (SELECT 1 FROM GovernmentSlots WHERE GovernmentSlotType = 'SLOT_JFD_CULTURAL');
+
+INSERT OR REPLACE INTO Modifiers			
+		(ModifierId,											ModifierType,												RunOnce,	Permanent,	SubjectRequirementSetId)
+VALUES	
+		('GREATPERSON_ATOMICCIVICBOOST',						'MODIFIER_PLAYER_GRANT_RANDOM_CIVIC_BOOST_BY_ERA',			1,			1,			null);
+
+INSERT OR REPLACE INTO ModifierArguments
+		(ModifierId,													Name,						Type,					Value)
+VALUES	('GREATPERSON_ATOMICCIVICBOOST',						'StartEraType',						'ARGTYPE_IDENTITY',		'ERA_ATOMIC'),
+		('GREATPERSON_ATOMICCIVICBOOST',						'EndEraType',						'ARGTYPE_IDENTITY',		'ERA_ATOMIC'),
+		('GREATPERSON_ATOMICCIVICBOOST',						'Amount',							'ARGTYPE_IDENTITY',		'1');

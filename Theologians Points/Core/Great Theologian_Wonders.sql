@@ -28,7 +28,6 @@ INSERT INTO Building_GreatPersonPoints
 	SELECT	BuildingType,	'GREAT_PERSON_CLASS_JFD_THEOLOGIAN',	1				
 	FROM Buildings WHERE BuildingType IN 
 	(
-		'BUILDING_STONEHENGE',
 		'BUILDING_ANGKOR_WAT', 
 		'BUILDING_ST_BASILS_CATHEDRAL',
 		'BUILDING_BAMYAN'						--Community Wonder Mod
@@ -39,21 +38,15 @@ INSERT INTO Building_GreatPersonPoints
 	SELECT	BuildingType,	'GREAT_PERSON_CLASS_JFD_THEOLOGIAN',	2				
 	FROM Buildings WHERE BuildingType IN 
 	(
+		'BUILDING_STONEHENGE',
+		'BUILDING_HAGIA_SOPHIA',
+		'BUILDING_KOTOKU_IN',
 		'BUILDING_MAHABODHI_TEMPLE',
 		'BUILDING_MONT_ST_MICHEL',
 		'BUILDING_MEENAKSHI_TEMPLE', 
 		'BUILDING_UNIVERSITY_SANKORE',
+		'BUILDING_BOROBUDUR',					--Community Wonder Mod
 		'BUILDING_ITSUKUSHIMA'					--Community Wonder Mod
-	);
-
-INSERT INTO Building_GreatPersonPoints
-			(BuildingType,	GreatPersonClassType,					PointsPerTurn	)
-	SELECT	BuildingType,	'GREAT_PERSON_CLASS_JFD_THEOLOGIAN',	4				
-	FROM Buildings WHERE BuildingType IN 
-	(
-		'BUILDING_HAGIA_SOPHIA',
-		'BUILDING_KOTOKU_IN',
-		'BUILDING_BOROBUDUR'					--Community Wonder Mod
 	);
 
 -- As i'm not sure which load order the Wonder Mods will take, use triggers if they load after this
@@ -92,6 +85,6 @@ BEGIN
 
 	INSERT INTO Building_GreatPersonPoints
 			(BuildingType,		GreatPersonClassType,					PointsPerTurn	)
-	VALUES	(New.BuildingType,	'GREAT_PERSON_CLASS_JFD_THEOLOGIAN',	4				);
+	VALUES	(New.BuildingType,	'GREAT_PERSON_CLASS_JFD_THEOLOGIAN',	2				);
 
 END;

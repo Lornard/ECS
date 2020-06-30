@@ -6,8 +6,8 @@
     <Guid>0df71c16-168d-474d-a5b2-c1e34bb2da0e</Guid>
     <ProjectGuid>8321c5fb-cc7c-48f1-bef0-2837922cabd5</ProjectGuid>
     <ModVersion>1</ModVersion>
-    <Teaser>Translations for City States and some fixes for some City-States</Teaser>
-    <Description>Translations for City States and some fixes for some City-States</Description>
+    <Teaser>Translations for DE</Teaser>
+    <Description>Translations for DE</Description>
     <Authors>lornard</Authors>
     <SpecialThanks>
     </SpecialThanks>
@@ -19,44 +19,26 @@
     <AssemblyName>EmptyMod1</AssemblyName>
     <RootNamespace>EmptyMod1</RootNamespace>
     <AssociationData><![CDATA[<Associations>
-  <Dependency type="Mod" title="CIVITAS [ICON_ENVOY] City-States" id="7d0b57ba-6a5c-4de0-ac10-e1e464ac82f6" />
   <Reference type="Mod" title="UC - Encampment Expansion" id="72d77fd9-7d34-4539-97d9-f5c23de67814" />
+  <Reference type="Mod" title="Better Trade Screen" id="8d4fa23a-ef43-440c-8422-2bec11f8f5d7" />
 </Associations>]]></AssociationData>
-    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="FixCityStates"><Properties><LoadOrder>67</LoadOrder></Properties><File>City-StatesCore/City-States/Base/CSE_Butuan.sql</File><File>City-StatesCore/City-States/Base/CSE_Mombasa.sql</File></UpdateDatabase><UpdateText id="TranslationCityStates"><Properties><LoadOrder>45</LoadOrder></Properties><File>City-StatesCore/CSE_Localisation.sql</File><File>Localisation/CSE_Localisation_PT_BR.sql</File></UpdateText><UpdateDatabase id="CityStates_Kilwa"><Properties><LoadOrder>40</LoadOrder></Properties><Criteria>XP1</Criteria><File>City-StatesCore/CSE_Wonders_XP1.sql</File></UpdateDatabase><UpdateDatabase id="CityStates_Kilwa_XP2"><Properties><LoadOrder>41</LoadOrder></Properties><Criteria>XP2</Criteria><File>City-StatesCore/CSE_Wonders_XP2.sql</File></UpdateDatabase><UpdateText id="Translations_XP1"><Properties><LoadOrder>46</LoadOrder></Properties><File>Localisation/CSE_Localisation_XP1_PT_BR.sql</File></UpdateText><UpdateText id="Translations_XP2"><Properties><LoadOrder>47</LoadOrder></Properties><File>Localisation/CSE_Localisation_XP2_PT_BR.sql</File></UpdateText></InGameActions>]]></InGameActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateText id="UpdateCampusBuildings"><Properties><LoadOrder>220</LoadOrder></Properties><File>Localisation/UC_CMP_Text_PT_BR.sql</File></UpdateText><UpdateText id="UpdateBTS"><File>Localisation/BTS_Text_PT.xml</File></UpdateText><UpdateText id="Update Commercial Buildings"><Properties><LoadOrder>230</LoadOrder></Properties><File>Localisation/UC_COM_Text_PT_BR.sql</File></UpdateText></InGameActions>]]></InGameActionData>
     <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="XP1" any="1"><GameCoreInUse>Expansion1,Expansion2</GameCoreInUse></Criteria><Criteria id="XP2"><GameCoreInUse>Expansion2</GameCoreInUse></Criteria></ActionCriteria>]]></ActionCriteriaData>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <Folder Include="City-StatesCore\City-States" />
-    <Folder Include="City-StatesCore\City-States\Base" />
     <Folder Include="Localisation" />
-    <Folder Include="City-StatesCore" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="City-StatesCore\City-States\Base\CSE_Butuan.sql">
+    <Content Include="Localisation\BTS_Text_PT.xml">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="City-StatesCore\City-States\Base\CSE_Mombasa.sql">
+    <Content Include="Localisation\UC_CMP_Text_PT_BR.sql">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="City-StatesCore\CSE_Localisation.sql">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="City-StatesCore\CSE_Wonders_XP1.sql">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="City-StatesCore\CSE_Wonders_XP2.sql">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Localisation\CSE_Localisation_PT_BR.sql">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Localisation\CSE_Localisation_XP1_PT_BR.sql">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Localisation\CSE_Localisation_XP2_PT_BR.sql">
+    <Content Include="Localisation\UC_COM_Text_PT_BR.sql">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Localisation\UC_MIL_CSE_Text_PT_BR.sql">
