@@ -24,12 +24,15 @@
 </Associations>]]></AssociationData>
     <InGameActionData><![CDATA[<InGameActions><UpdateText id="UpdateCampusBuildings"><Properties><LoadOrder>220</LoadOrder></Properties><File>Localisation/UC_CMP_Text_PT_BR.sql</File></UpdateText><UpdateText id="UpdateBTS"><File>Localisation/BTS_Text_PT.xml</File></UpdateText><UpdateText id="Update Commercial Buildings"><Properties><LoadOrder>230</LoadOrder></Properties><File>Localisation/UC_COM_Text_PT_BR.sql</File></UpdateText></InGameActions>]]></InGameActionData>
     <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="XP1" any="1"><GameCoreInUse>Expansion1,Expansion2</GameCoreInUse></Criteria><Criteria id="XP2"><GameCoreInUse>Expansion2</GameCoreInUse></Criteria></ActionCriteria>]]></ActionCriteriaData>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateText id="UpdatePopupTexts"><File>Localisation/RegenerateSeedOnLoadConfigText.sql</File></UpdateText><ImportFiles id="IncludingPopup"><File>UI/Multiplayer/HostGame.lua</File></ImportFiles></FrontEndActions>]]></FrontEndActionData>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
   </PropertyGroup>
   <ItemGroup>
     <Folder Include="Localisation" />
+    <Folder Include="UI\" />
+    <Folder Include="UI\Multiplayer" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Localisation\BTS_Text_PT.xml">
@@ -42,6 +45,9 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Localisation\UC_MIL_CSE_Text_PT_BR.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="UI\Multiplayer\HostGame.lua">
       <SubType>Content</SubType>
     </Content>
   </ItemGroup>
