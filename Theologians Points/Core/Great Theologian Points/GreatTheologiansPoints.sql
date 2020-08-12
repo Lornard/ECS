@@ -113,6 +113,50 @@ BEGIN
 END;
 
 ----------------------------------------------------------------------------------------------------------------------------
+--  TODO: Changing Boromeu to give a permanent +5 Combat Bonus instead of permanent Debater.
+----------------------------------------------------------------------------------------------------------------------------
+DELETE FROM GreatPersonIndividualActionModifiers 
+--WHERE	GreatPersonIndividualType = 'GREAT_PERSON_INDIVIDUAL_JFD_CHARLES_BORROMEO' AND ModifierId = 'GREATPERSON_JFD_CHARLES_BORROMEO_FAITH';
+WHERE	GreatPersonIndividualType = 'GREAT_PERSON_INDIVIDUAL_JFD_CHARLES_BORROMEO';
+
+DELETE FROM ModifierArguments
+WHERE	ModifierId LIKE 'GREATPERSON_JFD_CHARLES_BORROMEO_%';
+
+DELETE FROM Modifiers
+WHERE	ModifierId LIKE 'GREATPERSON_JFD_CHARLES_BORROMEO_%';
+
+INSERT OR REPLACE INTO RequirementSets
+		('RequirementSetId',		'RequirementSetType')
+VALUES	('GT_IS_RELIGIOUS_UNIT',	'REQUIREMENTSET_TEST_ALL');
+
+INSERT OR REPLACE INTO RequirementSetRequirements
+		('RequirementSetId',		'RequirementId')
+VALUES	('GT_IS_RELIGIOUS_UNIT',	'REQUIRES_UNIT_IS_RELIGIOUS_ALL');
+
+INSERT OR REPLACE INTO UnitAbilities
+		('UnitAbilityType',					'Name',										'Description',										'Inactive',	'ShowFloatTextWhenEarned',	'Permanent')
+VALUES	('ABILITY_COMBAT_BONUS_BORROMEO',	'LOC_ABILITY_COMBAT_BONUS_BORROMEO_NAME',	'LOC_ABILITY_COMBAT_BONUS_BORROMEO_DESCRIPTION',	1,			0,							1);
+
+INSERT OR REPLACE INTO UnitAbilityModifiers
+		('UnitAbilityType',					'ModifierId')
+VALUES	('ABILITY_COMBAT_BONUS_BORROMEO',	'GT_COMBAT_BONUS_BORROMEO');
+
+INSERT OR REPLACE INTO Modifiers			
+		(ModifierId,									ModifierType,								RunOnce,	Permanent,	SubjectRequirementSetId)
+--VALUES	('GREATPERSON_JFD_CHARLES_BORROMEO_COMBAT',		'MODIFIER_PLAYER_UNITS_GRANT_ABILITY',		0,			1,			'GT_IS_RELIGIOUS_UNIT'),
+VALUES	('GREATPERSON_JFD_CHARLES_BORROMEO_COMBAT',		'MODIFIER_PLAYER_UNITS_GRANT_ABILITY',		0,			1,			null),
+		('GT_COMBAT_BONUS_BORROMEO',					'MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH',		0,			0,			null);
+
+INSERT OR REPLACE INTO ModifierArguments
+		(ModifierId,									Name,			Type,					Value)
+VALUES	('GREATPERSON_JFD_CHARLES_BORROMEO_COMBAT',		'AbilityType',	'ARGTYPE_IDENTITY',		'ABILITY_COMBAT_BONUS_BORROMEO'),
+		('GT_COMBAT_BONUS_BORROMEO',					'Amount',		'ARGTYPE_IDENTITY',		5);
+
+INSERT INTO GreatPersonIndividualActionModifiers
+		(GreatPersonIndividualType,							ModifierId,									AttachmentTargetType)
+VALUES	('GREAT_PERSON_INDIVIDUAL_JFD_CHARLES_BORROMEO',	'GREATPERSON_JFD_CHARLES_BORROMEO_COMBAT',	'GREAT_PERSON_ACTION_ATTACHMENT_TARGET_PLAYER');
+					
+----------------------------------------------------------------------------------------------------------------------------
 --  Creates a validation if JFD's Cultural Policy Slots exists. If it doesn't, it'll give a Governor promotion instead.
 ----------------------------------------------------------------------------------------------------------------------------
 DELETE FROM ModifierArguments

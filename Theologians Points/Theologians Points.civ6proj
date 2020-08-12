@@ -21,7 +21,8 @@
 </Associations>]]></AssociationData>
     <AssemblyName>Real Theologists</AssemblyName>
     <RootNamespace>Real Theologists</RootNamespace>
-    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="UpdateTheologistsPoints"><Properties><LoadOrder>13</LoadOrder></Properties><File>Core/Great Theologian Points/GreatTheologiansPoints.sql</File></UpdateDatabase><AddGameplayScripts id="RemoveTheologiansScripts"><Properties><LoadOrder>12</LoadOrder></Properties><File>Lua/JFD_GreatTheologians_Functions.lua</File></AddGameplayScripts><ReplaceUIScript id="RemoveUIChanges"><Properties><LoadOrder>11</LoadOrder><LuaContext>GreatPeoplePopup</LuaContext><LuaReplace>Lua/UI/Replacements/JFD_GreatTheologians_GreatPeoplePopup.lua</LuaReplace></Properties></ReplaceUIScript><UpdateDatabase id="UpdateTheologiansChanges"><Properties><LoadOrder>12</LoadOrder></Properties><File>Core/Great Theologian_CityStates.sql</File><File>Core/Great Theologian_Wonders.sql</File><File>Core/Great Theologian_Policies.sql</File></UpdateDatabase><UpdateText id="UpdateTexts"><File>Text/Great Theologian_Text.sql</File></UpdateText></InGameActions>]]></InGameActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="UpdateTheologistsPoints"><Properties><LoadOrder>13</LoadOrder></Properties><File>Core/Great Theologian Points/GreatTheologiansPoints.sql</File></UpdateDatabase><AddGameplayScripts id="RemoveTheologiansScripts"><Properties><LoadOrder>12</LoadOrder></Properties><File>Lua/JFD_GreatTheologians_Functions.lua</File></AddGameplayScripts><ReplaceUIScript id="RemoveUIChanges"><Properties><LoadOrder>11</LoadOrder><LuaContext>GreatPeoplePopup</LuaContext><LuaReplace>Lua/UI/Replacements/JFD_GreatTheologians_GreatPeoplePopup.lua</LuaReplace></Properties></ReplaceUIScript><UpdateDatabase id="UpdateTheologiansChanges"><Properties><LoadOrder>12</LoadOrder></Properties><File>Core/Great Theologian_CityStates.sql</File><File>Core/Great Theologian_Wonders.sql</File><File>Core/Great Theologian_Policies.sql</File></UpdateDatabase><UpdateText id="UpdateTexts"><Properties><LoadOrder>11</LoadOrder></Properties><File>Text/Great Theologian_Text.sql</File></UpdateText><UpdateDatabase id="GT_SecretSocieties"><Criteria>SecretSociety</Criteria><File>Core/Great Theologian_SecretSocieties.sql</File></UpdateDatabase></InGameActions>]]></InGameActionData>
+    <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="SecretSociety"><ConfigurationValueMatches><ConfigurationId>GAMEMODE_SECRETSOCIETIES</ConfigurationId><Group>Game</Group><Value>1</Value></ConfigurationValueMatches></Criteria></ActionCriteria>]]></ActionCriteriaData>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
@@ -31,6 +32,9 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Core\Great Theologian_Policies.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Great Theologian_SecretSocieties.sql">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Core\Great Theologian_Wonders.sql">
@@ -48,6 +52,9 @@
     <Content Include="Text\Great Theologian_Text.sql">
       <SubType>Content</SubType>
     </Content>
+    <None Include="Text\Great Theologian_Text_pt_BR.sql">
+      <SubType>Content</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Core\Great Theologian Points" />
