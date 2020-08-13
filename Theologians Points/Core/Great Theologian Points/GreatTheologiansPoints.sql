@@ -125,13 +125,13 @@ WHERE	ModifierId LIKE 'GREATPERSON_JFD_CHARLES_BORROMEO_%';
 DELETE FROM Modifiers
 WHERE	ModifierId LIKE 'GREATPERSON_JFD_CHARLES_BORROMEO_%';
 
-INSERT OR REPLACE INTO RequirementSets
-		('RequirementSetId',		'RequirementSetType')
-VALUES	('GT_IS_RELIGIOUS_UNIT',	'REQUIREMENTSET_TEST_ALL');
+INSERT INTO Types 
+		(Type,								Kind)
+VALUES	('ABILITY_COMBAT_BONUS_BORROMEO',	'KIND_ABILITY');
 
-INSERT OR REPLACE INTO RequirementSetRequirements
-		('RequirementSetId',		'RequirementId')
-VALUES	('GT_IS_RELIGIOUS_UNIT',	'REQUIRES_UNIT_IS_RELIGIOUS_ALL');
+INSERT INTO TypeTags
+		(Type,								Tag)
+VALUES	('ABILITY_COMBAT_BONUS_BORROMEO',	'CLASS_RELIGIOUS_ALL');
 
 INSERT OR REPLACE INTO UnitAbilities
 		('UnitAbilityType',					'Name',										'Description',										'Inactive',	'ShowFloatTextWhenEarned',	'Permanent')
@@ -143,7 +143,6 @@ VALUES	('ABILITY_COMBAT_BONUS_BORROMEO',	'GT_COMBAT_BONUS_BORROMEO');
 
 INSERT OR REPLACE INTO Modifiers			
 		(ModifierId,									ModifierType,								RunOnce,	Permanent,	SubjectRequirementSetId)
---VALUES	('GREATPERSON_JFD_CHARLES_BORROMEO_COMBAT',		'MODIFIER_PLAYER_UNITS_GRANT_ABILITY',		0,			1,			'GT_IS_RELIGIOUS_UNIT'),
 VALUES	('GREATPERSON_JFD_CHARLES_BORROMEO_COMBAT',		'MODIFIER_PLAYER_UNITS_GRANT_ABILITY',		0,			1,			null),
 		('GT_COMBAT_BONUS_BORROMEO',					'MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH',		0,			0,			null);
 
@@ -151,6 +150,10 @@ INSERT OR REPLACE INTO ModifierArguments
 		(ModifierId,									Name,			Type,					Value)
 VALUES	('GREATPERSON_JFD_CHARLES_BORROMEO_COMBAT',		'AbilityType',	'ARGTYPE_IDENTITY',		'ABILITY_COMBAT_BONUS_BORROMEO'),
 		('GT_COMBAT_BONUS_BORROMEO',					'Amount',		'ARGTYPE_IDENTITY',		5);
+
+INSERT OR REPLACE INTO ModifierStrings
+		(ModifierId,					Context,	Text)
+VALUES	('GT_COMBAT_BONUS_BORROMEO',	'Preview',	'LOC_MODIFIER_COMBAT_BONUS_BORROMEO_DESCRIPTION');
 
 INSERT INTO GreatPersonIndividualActionModifiers
 		(GreatPersonIndividualType,							ModifierId,									AttachmentTargetType)
