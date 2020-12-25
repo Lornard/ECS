@@ -5,18 +5,6 @@
 --------------------------------------------------------------
 
 ----------------------------------------------------------------------------------------------------------------------------
---	Creating necessary Requirements and RequirementSets.
--- RequirementSets, RequirementSetRequirements
-----------------------------------------------------------------------------------------------------------------------------
-INSERT INTO RequirementSets
-		(RequirementSetId, 				RequirementSetType			)
-VALUES	('GTP_BUILDING_IS_TEMPLE',		'REQUIREMENTSET_TEST_ALL'	);
-
-INSERT INTO RequirementSetRequirements
-		(RequirementSetId, 				RequirementId)
-VALUES	('GTP_BUILDING_IS_TEMPLE',		'REQUIRES_CITY_HAS_TEMPLE');
-
-----------------------------------------------------------------------------------------------------------------------------
 --	Stockholm/Bologna bonuses applies to Theologians as well, but on temples instead of Shrines.
 -- Modifiers, ModifierArguments
 ----------------------------------------------------------------------------------------------------------------------------

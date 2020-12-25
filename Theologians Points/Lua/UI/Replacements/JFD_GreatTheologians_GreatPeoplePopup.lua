@@ -6,4 +6,4 @@
 ----------------------------------------------------------------------------------------------------------------------------
 --	Re-add the original lua file for the Great People Screen, Overwring the Theologian lua file. May conflict with other Great People UI mods!
 ----------------------------------------------------------------------------------------------------------------------------
-include('GreatPeoplePopup_Expansion1');
+include('GreatPeoplePopup');
